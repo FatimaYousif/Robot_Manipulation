@@ -1,0 +1,1902 @@
+﻿[03/07/21 20:55:33]: -----------------------------------------------
+[03/07/21 20:55:33]: Logger started
+[03/07/21 20:55:37]: Unknown event:Communication established
+[03/07/21 20:55:38]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[03/07/21 20:55:38]: Cycle time set to 0.004s
+[03/07/21 20:55:38]: Simulation cycle time set to 0.1s
+[03/07/21 20:55:38]: Controller IP address could not be updated
+[03/07/21 20:55:38]: STARC : No STARC board detected on PCI.
+[03/07/21 20:55:38]: Mcp = TSimulated
+[03/07/21 20:55:38]: Power shutdown delay set to 0 s
+[03/07/21 20:55:38]: Gravity (x y z): 0         0        -9.81
+[03/07/21 20:55:38]: Power hour count = 0:00:00
+[03/07/21 20:55:38]: Mac Address = 08-00-27-81-b0-96
+[03/07/21 20:55:38]: Working mode:invalid.
+[03/07/21 20:55:38]: COM-PC: server created on all interfaces [5653]
+[03/07/21 20:55:38]: VAL3: s6.8 Feb  9 2010
+[03/07/21 20:55:38]: Option testMode: demo 
+[03/07/21 20:55:38]: Configuration Version: D24266415A 
+[03/07/21 20:55:38]: Machine Number: ? 
+[03/07/21 20:55:38]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[03/07/21 20:55:38]: Arm serial number: ? 
+[03/07/21 20:55:38]: EP: s6.8 Feb  3 2010
+[03/07/21 20:55:38]: SCA: s6.8 Feb  3 2010
+[03/07/21 20:55:38]: PLC: s6.8 Feb  3 2010
+[03/07/21 20:55:38]: New profile : default
+[03/07/21 20:55:38]: Working mode:manual.
+[03/07/21 20:55:38]: End of arm power shutdown phase.
+[03/07/21 20:55:38]: COM-PC: create session 127.0.0.1 on port 49947 id=#33511472
+[03/07/21 20:55:41]: Settling arm power...
+[03/07/21 20:55:42]: Arm power settled.
+[03/07/21 20:55:42]: Unknown event:motion generator activated
+[03/07/21 20:55:57]: COM-PC: destroy session 127.0.0.1 on port 49947 id=#33511472
+[03/07/21 20:56:05]: Manual motion mode:Point
+[03/07/21 20:56:05]: Unknown event:motion generator desactivated
+[03/07/21 20:56:05]: Unknown event:motion generator activated
+[03/07/21 20:56:39]: COM-PC: create session 127.0.0.1 on port 49954 id=#33511368
+[03/07/21 20:56:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:56:53]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 20:56:53]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:56:55]: System event INTERFACE-Stopped  (Jog Interface). 19 events lost.
+[03/07/21 20:57:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:12]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 20:57:28]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:29]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 20:57:40]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:41]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 20:57:52]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:53]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 20:58:07]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:58:07]: System event INTERFACE-Stopped  (Jog Interface). 2 events lost.
+[03/07/21 20:58:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:58:17]: System event INTERFACE-Stopped  (Jog Interface). 2 events lost.
+[03/07/21 20:58:41]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:58:42]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 20:58:55]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:59:01]: System event INTERFACE-Stopped  (Jog Interface). 23 events lost.
+[03/07/21 20:59:06]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:59:08]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 20:59:49]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:59:50]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 20:59:57]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:02]: System event INTERFACE-Stopped  (Jog Interface). 23 events lost.
+[03/07/21 21:00:08]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:10]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 21:00:20]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:23]: System event INTERFACE-Stopped  (Jog Interface). 11 events lost.
+[03/07/21 21:00:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:35]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:00:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:52]: System event INTERFACE-Stopped  (Jog Interface). 22 events lost.
+[03/07/21 21:01:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:12]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:01:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:22]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:01:28]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:30]: System event INTERFACE-Stopped  (Jog Interface). 11 events lost.
+[03/07/21 21:01:36]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:36]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:01:42]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:44]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 21:01:50]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:51]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:02:07]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:12]: System event INTERFACE-Stopped  (Jog Interface). 21 events lost.
+[03/07/21 21:02:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:21]: System event INTERFACE-Stopped  (Jog Interface). 18 events lost.
+[03/07/21 21:02:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:37]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:02:42]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:45]: System event INTERFACE-Stopped  (Jog Interface). 17 events lost.
+[03/07/21 21:02:51]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:53]: System event INTERFACE-Stopped  (Jog Interface). 15 events lost.
+[03/07/21 21:02:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:02]: System event INTERFACE-Stopped  (Jog Interface). 18 events lost.
+[03/07/21 21:03:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:11]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:03:16]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:16]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:03:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:24]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:03:29]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:31]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:03:36]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:38]: System event INTERFACE-Stopped  (Jog Interface). 14 events lost.
+[03/07/21 21:03:43]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:43]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:03:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:00]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:04:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:12]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:04:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:04:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:36]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:04:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:48]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:04:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:00]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:05:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:12]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:05:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:05:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:36]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:05:48]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:49]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:05:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:00]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:06:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:11]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:06:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:06:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:36]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:06:48]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:48]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:06:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:00]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:12]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:36]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:48]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:08:00]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:01]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:08:12]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:13]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:08:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:24]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:08:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:35]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:08:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:48]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:08:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:59]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:09:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:10]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:09:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:23]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:09:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:34]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:09:46]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:47]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:09:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:59]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:10:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:10]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:10:21]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:22]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:10:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:35]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:10:46]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:51]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:10:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:59]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:11:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:11]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:11:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:22]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:11:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:34]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:11:50]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:51]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:11:56]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:02]: System event INTERFACE-Stopped  (Jog Interface). 28 events lost.
+[03/07/21 21:12:07]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:09]: System event INTERFACE-Stopped  (Jog Interface). 11 events lost.
+[03/07/21 21:12:14]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:16]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:12:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:25]: System event INTERFACE-Stopped  (Jog Interface). 12 events lost.
+[03/07/21 21:12:30]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:31]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:12:37]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:39]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:13:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:13:12]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 21:13:20]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:13:22]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:13:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:01]: System event INTERFACE-Stopped  (Jog Interface). 15 events lost.
+[03/07/21 21:14:14]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:15]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:14:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:48]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:14:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:58]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:15:49]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:15:50]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:16:05]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:06]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:16:24]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:24]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:16:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:36]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:16:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:48]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:16:55]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:56]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:17:08]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:17:08]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:17:16]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:17:16]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:18:04]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:07]: System event INTERFACE-Stopped  (Jog Interface). 14 events lost.
+[03/07/21 21:18:12]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:12]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:18:32]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:36]: System event INTERFACE-Stopped  (Jog Interface). 17 events lost.
+[03/07/21 21:18:45]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:48]: System event INTERFACE-Stopped  (Jog Interface). 12 events lost.
+[03/07/21 21:18:52]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:53]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:19:03]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:07]: System event INTERFACE-Stopped  (Jog Interface). 20 events lost.
+[03/07/21 21:19:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:24]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:19:30]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:30]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:19:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:48]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:20:04]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:20:05]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:20:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:20:12]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:20:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:20:17]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:21:08]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:21:09]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:21:33]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:21:33]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:25:55]: Saving controller context...
+[03/07/21 21:25:55]: Controller temperature: 28°C
+[03/07/21 21:25:55]: CPU temperature: 28°C
+[03/07/21 21:55:58]: Saving controller context...
+[03/07/21 22:26:00]: Saving controller context... (1)
+[03/07/21 22:29:09]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:13]: System event INTERFACE-Stopped  (Jog Interface). 19 events lost.
+[03/07/21 22:29:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:19]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 22:29:30]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:31]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 22:29:37]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:38]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 22:29:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:53]: System event INTERFACE-Stopped  (Jog Interface). 20 events lost.
+[03/07/21 22:29:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:30:00]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 22:30:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:30:15]: System event INTERFACE-Stopped  (Jog Interface). 16 events lost.
+[03/07/21 22:30:23]: COM-PC: create session 127.0.0.1 on port 51904 id=#33511992
+[11/07/23 12:58:56]: -----------------------------------------------
+[11/07/23 12:58:56]: Logger started
+[11/07/23 12:59:01]: Unknown event:Communication established
+[11/07/23 12:59:01]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/07/23 12:59:01]: Cycle time set to 0.004s
+[11/07/23 12:59:01]: Simulation cycle time set to 0.1s
+[11/07/23 12:59:01]: Controller IP address could not be updated
+[11/07/23 12:59:01]: STARC : No STARC board detected on PCI.
+[11/07/23 12:59:01]: Mcp = TSimulated
+[11/07/23 12:59:01]: Power shutdown delay set to 0 s
+[11/07/23 12:59:01]: Gravity (x y z): 0         0        -9.81
+[11/07/23 12:59:01]: Power hour count = 0:00:00
+[11/07/23 12:59:01]: Mac Address = 84-fd-d1-6c-63-ad
+[11/07/23 12:59:01]: COM-PC: server created on all interfaces [5653]
+[11/07/23 12:59:01]: VAL3: s6.8 Feb  9 2010
+[11/07/23 12:59:01]: Option testMode: demo 
+[11/07/23 12:59:01]: Configuration Version: D24266415A 
+[11/07/23 12:59:01]: Machine Number: ? 
+[11/07/23 12:59:01]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/07/23 12:59:01]: Arm serial number: ? 
+[11/07/23 12:59:01]: EP: s6.8 Feb  3 2010
+[11/07/23 12:59:01]: SCA: s6.8 Feb  3 2010
+[11/07/23 12:59:01]: PLC: s6.8 Feb  3 2010
+[11/07/23 12:59:01]: New profile : default
+[11/07/23 12:59:01]: COM-PC: create session 127.0.0.1 on port 64322 id=#60030984
+[11/07/23 12:59:01]: Working mode:manual.
+[11/07/23 12:59:02]: End of arm power shutdown phase.
+[11/07/23 12:59:18]: COM-PC: destroy session 127.0.0.1 on port 64322 id=#60030984
+[11/07/23 12:59:23]: (File start.pgx-line 9) 'vacuum' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 10) 'blow' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 12) 'O' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 13) 'putIn' : undefined function
+[11/07/23 12:59:23]: (File start.pgx-line 14) 'tShift' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 15) '[' : invalid separator
+[11/07/23 12:59:23]: (File start.pgx-line 19) 'vacuum' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 20) 'blow' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 22) 'putIn' : undefined function
+[11/07/23 12:59:23]: (File start.pgx-line 23) 'tShift' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 24) 'tShift' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 25) '[' : invalid separator
+[11/07/23 12:59:23]: (File start.pgx-line 27) 'putIn' : undefined function
+[11/07/23 12:59:23]: (File start.pgx-line 29) 'vacuum' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 30) 'blow' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 32) 'putIn' : undefined function
+[11/07/23 12:59:23]: (File start.pgx-line 33) 'tshift' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 34) '[' : invalid separator
+[11/07/23 12:59:23]: (File start.pgx-line 38) 'vacuum' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 39) 'blow' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 42) 'tShift' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 43) 'tShift' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 44) '[' : invalid separator
+[11/07/23 12:59:23]: (File start.pgx-line 46) 'putIn' : undefined function
+[11/07/23 12:59:23]: (File start.pgx-line 48) 'vacuum' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 49) 'blow' : invalid name
+[11/07/23 12:59:23]: (File start.pgx-line 50) 'waitEndMove' : invalid name
+[11/07/23 12:59:53]: MCP communication disconnected
+[11/07/23 13:00:16]: -----------------------------------------------
+[11/07/23 13:00:16]: Logger started
+[11/07/23 13:00:20]: Unknown event:Communication established
+[11/07/23 13:00:20]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/07/23 13:00:20]: Cycle time set to 0.004s
+[11/07/23 13:00:20]: Simulation cycle time set to 0.1s
+[11/07/23 13:00:20]: Controller IP address could not be updated
+[11/07/23 13:00:20]: STARC : No STARC board detected on PCI.
+[11/07/23 13:00:20]: Mcp = TSimulated
+[11/07/23 13:00:20]: Power shutdown delay set to 0 s
+[11/07/23 13:00:20]: Gravity (x y z): 0         0        -9.81
+[11/07/23 13:00:20]: Power hour count = 0:00:00
+[11/07/23 13:00:20]: Mac Address = 84-fd-d1-6c-63-ad
+[11/07/23 13:00:20]: COM-PC: server created on all interfaces [5653]
+[11/07/23 13:00:20]: VAL3: s6.8 Feb  9 2010
+[11/07/23 13:00:20]: Option testMode: demo 
+[11/07/23 13:00:20]: Configuration Version: D24266415A 
+[11/07/23 13:00:20]: Machine Number: ? 
+[11/07/23 13:00:20]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/07/23 13:00:20]: Arm serial number: ? 
+[11/07/23 13:00:20]: EP: s6.8 Feb  3 2010
+[11/07/23 13:00:20]: SCA: s6.8 Feb  3 2010
+[11/07/23 13:00:20]: PLC: s6.8 Feb  3 2010
+[11/07/23 13:00:20]: New profile : default
+[11/07/23 13:00:21]: Working mode:manual.
+[11/07/23 13:00:21]: End of arm power shutdown phase.
+[11/07/23 13:00:42]: MCP communication disconnected
+[11/07/23 13:01:08]: -----------------------------------------------
+[11/07/23 13:01:08]: Logger started
+[11/07/23 13:01:12]: Unknown event:Communication established
+[11/07/23 13:01:12]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/07/23 13:01:12]: Cycle time set to 0.004s
+[11/07/23 13:01:12]: Simulation cycle time set to 0.1s
+[11/07/23 13:01:12]: Controller IP address could not be updated
+[11/07/23 13:01:12]: STARC : No STARC board detected on PCI.
+[11/07/23 13:01:12]: Mcp = TSimulated
+[11/07/23 13:01:12]: Power shutdown delay set to 0 s
+[11/07/23 13:01:12]: Gravity (x y z): 0         0        -9.81
+[11/07/23 13:01:12]: Power hour count = 0:00:00
+[11/07/23 13:01:12]: Mac Address = 84-fd-d1-6c-63-ad
+[11/07/23 13:01:12]: COM-PC: server created on all interfaces [5653]
+[11/07/23 13:01:12]: VAL3: s6.8 Feb  9 2010
+[11/07/23 13:01:12]: Option testMode: demo 
+[11/07/23 13:01:12]: Configuration Version: D24266415A 
+[11/07/23 13:01:12]: Machine Number: ? 
+[11/07/23 13:01:12]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/07/23 13:01:12]: Arm serial number: ? 
+[11/07/23 13:01:12]: EP: s6.8 Feb  3 2010
+[11/07/23 13:01:12]: SCA: s6.8 Feb  3 2010
+[11/07/23 13:01:12]: PLC: s6.8 Feb  3 2010
+[11/07/23 13:01:12]: New profile : default
+[11/07/23 13:01:13]: Working mode:manual.
+[11/07/23 13:01:13]: End of arm power shutdown phase.
+[11/07/23 13:01:35]: MCP communication disconnected
+[11/07/23 13:07:19]: -----------------------------------------------
+[11/07/23 13:07:19]: Logger started
+[11/07/23 13:07:23]: Unknown event:Communication established
+[11/07/23 13:07:23]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/07/23 13:07:23]: Cycle time set to 0.004s
+[11/07/23 13:07:23]: Simulation cycle time set to 0.1s
+[11/07/23 13:07:23]: Controller IP address could not be updated
+[11/07/23 13:07:23]: STARC : No STARC board detected on PCI.
+[11/07/23 13:07:23]: Mcp = TSimulated
+[11/07/23 13:07:23]: Power shutdown delay set to 0 s
+[11/07/23 13:07:23]: Gravity (x y z): 0         0        -9.81
+[11/07/23 13:07:23]: Power hour count = 0:00:00
+[11/07/23 13:07:23]: Mac Address = 84-fd-d1-6c-63-ad
+[11/07/23 13:07:23]: COM-PC: server created on all interfaces [5653]
+[11/07/23 13:07:23]: VAL3: s6.8 Feb  9 2010
+[11/07/23 13:07:23]: Option testMode: demo 
+[11/07/23 13:07:23]: Configuration Version: D24266415A 
+[11/07/23 13:07:23]: Machine Number: ? 
+[11/07/23 13:07:23]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/07/23 13:07:23]: Arm serial number: ? 
+[11/07/23 13:07:23]: EP: s6.8 Feb  3 2010
+[11/07/23 13:07:23]: SCA: s6.8 Feb  3 2010
+[11/07/23 13:07:23]: PLC: s6.8 Feb  3 2010
+[11/07/23 13:07:23]: New profile : default
+[11/07/23 13:07:23]: COM-PC: create session 127.0.0.1 on port 64612 id=#54839240
+[11/07/23 13:07:23]: Working mode:manual.
+[11/07/23 13:07:24]: End of arm power shutdown phase.
+[11/07/23 13:07:36]: MCP communication disconnected
+[11/07/23 13:07:42]: COM-PC: destroy session 127.0.0.1 on port 64612 id=#54839240
+[11/07/23 13:09:24]: -----------------------------------------------
+[11/07/23 13:09:24]: Logger started
+[11/07/23 13:09:29]: Unknown event:Communication established
+[11/07/23 13:09:29]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/07/23 13:09:29]: Cycle time set to 0.004s
+[11/07/23 13:09:29]: Simulation cycle time set to 0.1s
+[11/07/23 13:09:29]: Controller IP address could not be updated
+[11/07/23 13:09:29]: STARC : No STARC board detected on PCI.
+[11/07/23 13:09:29]: Mcp = TSimulated
+[11/07/23 13:09:29]: Power shutdown delay set to 0 s
+[11/07/23 13:09:29]: Gravity (x y z): 0         0        -9.81
+[11/07/23 13:09:29]: Power hour count = 0:00:00
+[11/07/23 13:09:29]: Mac Address = 84-fd-d1-6c-63-ad
+[11/07/23 13:09:29]: COM-PC: server created on all interfaces [5653]
+[11/07/23 13:09:29]: VAL3: s6.8 Feb  9 2010
+[11/07/23 13:09:29]: Option testMode: demo 
+[11/07/23 13:09:29]: Configuration Version: D24266415A 
+[11/07/23 13:09:29]: Machine Number: ? 
+[11/07/23 13:09:29]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/07/23 13:09:29]: Arm serial number: ? 
+[11/07/23 13:09:29]: EP: s6.8 Feb  3 2010
+[11/07/23 13:09:29]: SCA: s6.8 Feb  3 2010
+[11/07/23 13:09:29]: PLC: s6.8 Feb  3 2010
+[11/07/23 13:09:29]: New profile : default
+[11/07/23 13:09:29]: COM-PC: create session 127.0.0.1 on port 64680 id=#51041336
+[11/07/23 13:09:29]: Working mode:manual.
+[11/07/23 13:09:30]: End of arm power shutdown phase.
+[11/07/23 13:09:34]: Manual motion mode:Frame
+[11/07/23 13:09:40]: Manual motion mode:Disabled
+[11/07/23 13:09:42]: COM-PC: destroy session 127.0.0.1 on port 64680 id=#51041336
+[11/07/23 13:10:37]: COM-PC: create session 127.0.0.1 on port 64721 id=#51043104
+[11/07/23 13:11:05]: Cannot apply arm power: release & press deadman to enable arm power request.
+[11/07/23 13:11:24]: Settling arm power...
+[11/07/23 13:11:24]: Arm power settled.
+[11/07/23 13:11:25]: Arm power shutdown...
+[11/07/23 13:11:26]: End of arm power shutdown phase.
+[11/07/23 13:11:29]: Settling arm power...
+[11/07/23 13:11:29]: Arm power settled.
+[11/07/23 13:11:29]: Arm power shutdown...
+[11/07/23 13:11:30]: End of arm power shutdown phase.
+[11/07/23 13:11:44]: Settling arm power...
+[11/07/23 13:11:45]: Arm power settled.
+[11/07/23 13:11:45]: Unknown event:motion generator activated
+[11/07/23 13:12:11]: Manual motion mode:Frame
+[11/07/23 13:12:11]: Unknown event:motion generator desactivated
+[11/07/23 13:12:11]: Unknown event:motion generator activated
+[11/07/23 13:12:44]: Cannot jog arm: a software limit has been reached on axis 3.
+[11/07/23 13:12:56]: Unknown event:motion generator desactivated
+[11/07/23 13:12:56]: Arm power shutdown...
+[11/07/23 13:12:57]: End of arm power shutdown phase.
+[11/07/23 13:12:59]: Saving controller context...
+[11/07/23 13:12:59]: Controller temperature: 28°C
+[11/07/23 13:12:59]: CPU temperature: 28°C
+[11/07/23 13:13:51]: MCP communication disconnected
+[11/07/23 13:45:51]: -----------------------------------------------
+[11/07/23 13:45:51]: Logger started
+[11/07/23 13:45:55]: Unknown event:Communication established
+[11/07/23 13:45:55]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/07/23 13:45:55]: Cycle time set to 0.004s
+[11/07/23 13:45:55]: Simulation cycle time set to 0.1s
+[11/07/23 13:45:55]: Controller IP address could not be updated
+[11/07/23 13:45:55]: STARC : No STARC board detected on PCI.
+[11/07/23 13:45:55]: Mcp = TSimulated
+[11/07/23 13:45:55]: Power shutdown delay set to 0 s
+[11/07/23 13:45:55]: Gravity (x y z): 0         0        -9.81
+[11/07/23 13:45:55]: Power hour count = 0:01:05
+[11/07/23 13:45:55]: Mac Address = 84-fd-d1-6c-63-ad
+[11/07/23 13:45:55]: COM-PC: server created on all interfaces [5653]
+[11/07/23 13:45:55]: VAL3: s6.8 Feb  9 2010
+[11/07/23 13:45:55]: Option testMode: demo 
+[11/07/23 13:45:55]: Configuration Version: D24266415A 
+[11/07/23 13:45:55]: Machine Number: ? 
+[11/07/23 13:45:55]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/07/23 13:45:55]: Arm serial number: ? 
+[11/07/23 13:45:55]: EP: s6.8 Feb  3 2010
+[11/07/23 13:45:55]: SCA: s6.8 Feb  3 2010
+[11/07/23 13:45:55]: PLC: s6.8 Feb  3 2010
+[11/07/23 13:45:55]: New profile : default
+[11/07/23 13:45:55]: COM-PC: create session 127.0.0.1 on port 49364 id=#60165320
+[11/07/23 13:45:56]: Working mode:manual.
+[11/07/23 13:45:56]: End of arm power shutdown phase.
+[11/07/23 13:46:13]: COM-PC: destroy session 127.0.0.1 on port 49364 id=#60165320
+[11/07/23 13:46:53]: Settling arm power...
+[11/07/23 13:46:54]: Arm power settled.
+[11/07/23 13:46:54]: Unknown event:motion generator activated
+[11/07/23 13:47:18]: Jog move impossible: first select a jog mode.
+[11/07/23 13:47:22]: Jog move impossible: first select a jog mode. (2)
+[11/07/23 13:47:23]: Manual motion mode:Frame
+[11/07/23 13:47:24]: Unknown event:motion generator desactivated
+[11/07/23 13:47:24]: Unknown event:motion generator activated
+[11/07/23 13:47:33]: MCP communication disconnected
+[11/07/23 13:47:33]: Arm power shutdown: working mode change.
+[11/07/23 13:47:33]: Arm power shutdown...
+[11/07/23 13:47:33]: Unknown event:motion generator desactivated
+[11/07/23 13:47:34]: End of arm power shutdown phase.
+[11/07/23 13:47:35]: Saving controller context...
+[11/07/23 13:47:35]: Controller temperature: 28°C
+[11/07/23 13:47:35]: CPU temperature: 28°C
+[11/09/23 11:36:05]: -----------------------------------------------
+[11/09/23 11:36:05]: Logger started
+[11/09/23 11:36:09]: Unknown event:Communication established
+[11/09/23 11:36:09]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/09/23 11:36:09]: Cycle time set to 0.004s
+[11/09/23 11:36:09]: Simulation cycle time set to 0.1s
+[11/09/23 11:36:09]: Controller IP address could not be updated
+[11/09/23 11:36:09]: STARC : No STARC board detected on PCI.
+[11/09/23 11:36:09]: Mcp = TSimulated
+[11/09/23 11:36:09]: Power shutdown delay set to 0 s
+[11/09/23 11:36:09]: Gravity (x y z): 0         0        -9.81
+[11/09/23 11:36:09]: Power hour count = 0:01:40
+[11/09/23 11:36:09]: Mac Address = 84-fd-d1-6c-63-ad
+[11/09/23 11:36:09]: COM-PC: server created on all interfaces [5653]
+[11/09/23 11:36:09]: VAL3: s6.8 Feb  9 2010
+[11/09/23 11:36:09]: Option testMode: demo 
+[11/09/23 11:36:09]: Configuration Version: D24266415A 
+[11/09/23 11:36:09]: Machine Number: ? 
+[11/09/23 11:36:09]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/09/23 11:36:09]: Arm serial number: ? 
+[11/09/23 11:36:09]: EP: s6.8 Feb  3 2010
+[11/09/23 11:36:09]: SCA: s6.8 Feb  3 2010
+[11/09/23 11:36:09]: PLC: s6.8 Feb  3 2010
+[11/09/23 11:36:09]: New profile : default
+[11/09/23 11:36:10]: COM-PC: create session 127.0.0.1 on port 53945 id=#50639264
+[11/09/23 11:36:10]: Working mode:manual.
+[11/09/23 11:36:10]: End of arm power shutdown phase.
+[11/09/23 11:36:28]: COM-PC: destroy session 127.0.0.1 on port 53945 id=#50639264
+[11/09/23 11:37:40]: MCP communication disconnected
+[11/09/23 11:38:14]: -----------------------------------------------
+[11/09/23 11:38:14]: Logger started
+[11/09/23 11:38:18]: Unknown event:Communication established
+[11/09/23 11:38:18]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/09/23 11:38:18]: Cycle time set to 0.004s
+[11/09/23 11:38:18]: Simulation cycle time set to 0.1s
+[11/09/23 11:38:18]: Controller IP address could not be updated
+[11/09/23 11:38:18]: STARC : No STARC board detected on PCI.
+[11/09/23 11:38:18]: Mcp = TSimulated
+[11/09/23 11:38:18]: Power shutdown delay set to 0 s
+[11/09/23 11:38:18]: Gravity (x y z): 0         0        -9.81
+[11/09/23 11:38:18]: Power hour count = 0:01:40
+[11/09/23 11:38:18]: Mac Address = 84-fd-d1-6c-63-ad
+[11/09/23 11:38:18]: COM-PC: server created on all interfaces [5653]
+[11/09/23 11:38:18]: VAL3: s6.8 Feb  9 2010
+[11/09/23 11:38:18]: Option testMode: demo 
+[11/09/23 11:38:18]: Configuration Version: D24266415A 
+[11/09/23 11:38:18]: Machine Number: ? 
+[11/09/23 11:38:18]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/09/23 11:38:18]: Arm serial number: ? 
+[11/09/23 11:38:18]: EP: s6.8 Feb  3 2010
+[11/09/23 11:38:18]: SCA: s6.8 Feb  3 2010
+[11/09/23 11:38:18]: PLC: s6.8 Feb  3 2010
+[11/09/23 11:38:18]: New profile : default
+[11/09/23 11:38:18]: Working mode:manual.
+[11/09/23 11:38:19]: End of arm power shutdown phase.
+[11/09/23 11:39:28]: Working mode:test.
+[11/09/23 11:39:33]: Saving controller context...
+[11/09/23 11:39:33]: Controller temperature: 28°C
+[11/09/23 11:39:33]: CPU temperature: 28°C
+[11/09/23 11:39:55]: Settling arm power...
+[11/09/23 11:39:55]: Arm power shutdown...
+[11/09/23 11:39:55]: Cannot apply arm power: press the deadman switch or park the pendant on the cradle.
+[11/09/23 11:39:56]: End of arm power shutdown phase.
+[11/09/23 11:40:08]: Settling arm power...
+[11/09/23 11:40:08]: Arm power shutdown...
+[11/09/23 11:40:08]: Cannot apply arm power: press the deadman switch or park the pendant on the cradle.
+[11/09/23 11:40:08]: Cannot apply arm power: arm power is still in disabling phase.
+[11/09/23 11:40:09]: End of arm power shutdown phase.
+[11/09/23 11:40:52]: Settling arm power...
+[11/09/23 11:40:52]: Arm power shutdown...
+[11/09/23 11:40:52]: Cannot apply arm power: press the deadman switch or park the pendant on the cradle.
+[11/09/23 11:40:53]: End of arm power shutdown phase.
+[11/09/23 11:40:56]: Settling arm power...
+[11/09/23 11:40:57]: Arm power settled.
+[11/09/23 11:40:57]: Unknown event:motion generator activated
+[11/09/23 11:42:01]: COM-PC: create session 127.0.0.1 on port 54026 id=#59853408
+[11/09/23 11:43:02]: Unknown event:motion generator desactivated
+[11/09/23 11:43:02]: Arm power shutdown...
+[11/09/23 11:43:03]: End of arm power shutdown phase.
+[11/09/23 11:43:06]: Saving controller context...
+[11/09/23 11:43:06]: MCP communication disconnected
+[11/09/23 11:50:52]: -----------------------------------------------
+[11/09/23 11:50:52]: Logger started
+[11/09/23 11:50:56]: Unknown event:Communication established
+[11/09/23 11:50:56]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/09/23 11:50:56]: Cycle time set to 0.004s
+[11/09/23 11:50:56]: Simulation cycle time set to 0.1s
+[11/09/23 11:50:56]: Controller IP address could not be updated
+[11/09/23 11:50:56]: STARC : No STARC board detected on PCI.
+[11/09/23 11:50:56]: Mcp = TSimulated
+[11/09/23 11:50:56]: Power shutdown delay set to 0 s
+[11/09/23 11:50:56]: Gravity (x y z): 0         0        -9.81
+[11/09/23 11:50:56]: Power hour count = 0:03:43
+[11/09/23 11:50:56]: Mac Address = 84-fd-d1-6c-63-ad
+[11/09/23 11:50:56]: COM-PC: server created on all interfaces [5653]
+[11/09/23 11:50:56]: VAL3: s6.8 Feb  9 2010
+[11/09/23 11:50:56]: Option testMode: demo 
+[11/09/23 11:50:56]: Configuration Version: D24266415A 
+[11/09/23 11:50:56]: Machine Number: ? 
+[11/09/23 11:50:56]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/09/23 11:50:56]: Arm serial number: ? 
+[11/09/23 11:50:56]: EP: s6.8 Feb  3 2010
+[11/09/23 11:50:56]: SCA: s6.8 Feb  3 2010
+[11/09/23 11:50:56]: PLC: s6.8 Feb  3 2010
+[11/09/23 11:50:56]: New profile : default
+[11/09/23 11:50:56]: COM-PC: create session 127.0.0.1 on port 54167 id=#59942048
+[11/09/23 11:50:57]: Working mode:test.
+[11/09/23 11:50:57]: End of arm power shutdown phase.
+[11/09/23 11:51:13]: COM-PC: destroy session 127.0.0.1 on port 54167 id=#59942048
+[11/09/23 11:53:03]: Settling arm power...
+[11/09/23 11:53:04]: Arm power settled.
+[11/09/23 11:53:04]: Unknown event:motion generator activated
+[11/09/23 11:53:39]: COM-PC: create session 127.0.0.1 on port 54202 id=#59942048
+[11/09/23 11:54:16]: AppTto application started
+[11/09/23 11:54:17]: ERR 81 Invalid data for the connected arm
+[11/09/23 11:54:17]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/09/23 11:55:23]: COM-PC: destroy session 127.0.0.1 on port 54202 id=#59942048
+[11/09/23 12:17:51]: AppTto application stopped
+[11/09/23 12:18:00]: MCP communication disconnected
+[11/09/23 12:18:00]: Arm power shutdown: working mode change.
+[11/09/23 12:18:00]: Arm power shutdown...
+[11/09/23 12:18:00]: Unknown event:motion generator desactivated
+[11/13/23 09:31:02]: -----------------------------------------------
+[11/13/23 09:31:02]: Logger started
+[11/13/23 09:31:06]: Unknown event:Communication established
+[11/13/23 09:31:07]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 09:31:07]: Cycle time set to 0.004s
+[11/13/23 09:31:07]: Simulation cycle time set to 0.1s
+[11/13/23 09:31:07]: Controller IP address could not be updated
+[11/13/23 09:31:07]: STARC : No STARC board detected on PCI.
+[11/13/23 09:31:07]: Mcp = TSimulated
+[11/13/23 09:31:07]: Power shutdown delay set to 0 s
+[11/13/23 09:31:07]: Gravity (x y z): 0         0        -9.81
+[11/13/23 09:31:07]: Power hour count = 0:03:43
+[11/13/23 09:31:07]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 09:31:07]: COM-PC: server created on all interfaces [5653]
+[11/13/23 09:31:07]: VAL3: s6.8 Feb  9 2010
+[11/13/23 09:31:07]: Option testMode: demo 
+[11/13/23 09:31:07]: Configuration Version: D24266415A 
+[11/13/23 09:31:07]: Machine Number: ? 
+[11/13/23 09:31:07]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 09:31:07]: Arm serial number: ? 
+[11/13/23 09:31:07]: EP: s6.8 Feb  3 2010
+[11/13/23 09:31:07]: SCA: s6.8 Feb  3 2010
+[11/13/23 09:31:07]: PLC: s6.8 Feb  3 2010
+[11/13/23 09:31:07]: New profile : default
+[11/13/23 09:31:07]: COM-PC: create session 127.0.0.1 on port 54008 id=#60988408
+[11/13/23 09:31:07]: Working mode:test.
+[11/13/23 09:31:07]: End of arm power shutdown phase.
+[11/13/23 09:31:41]: Settling arm power...
+[11/13/23 09:31:42]: Arm power settled.
+[11/13/23 09:31:42]: Unknown event:motion generator activated
+[11/13/23 09:33:36]: AppTto application started
+[11/13/23 09:33:37]: ERR 81 Invalid data for the connected arm
+[11/13/23 09:33:37]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 09:40:17]: AppTto application stopped
+[11/13/23 09:40:42]: Arm power shutdown: working mode change.
+[11/13/23 09:40:42]: Arm power shutdown...
+[11/13/23 09:40:42]: Unknown event:motion generator desactivated
+[11/13/23 09:40:43]: Working mode:remote.
+[11/13/23 09:40:44]: End of arm power shutdown phase.
+[11/13/23 09:40:44]: Working mode:automatic.
+[11/13/23 09:40:48]: Working mode:manual.
+[11/13/23 09:40:51]: Saving controller context...
+[11/13/23 09:40:51]: Controller temperature: 28°C
+[11/13/23 09:40:51]: CPU temperature: 28°C
+[11/13/23 09:41:17]: MCP communication disconnected
+[11/13/23 09:41:36]: -----------------------------------------------
+[11/13/23 09:41:36]: Logger started
+[11/13/23 09:41:40]: Unknown event:Communication established
+[11/13/23 09:41:40]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 09:41:40]: Cycle time set to 0.004s
+[11/13/23 09:41:40]: Simulation cycle time set to 0.1s
+[11/13/23 09:41:40]: Controller IP address could not be updated
+[11/13/23 09:41:40]: STARC : No STARC board detected on PCI.
+[11/13/23 09:41:40]: Mcp = TSimulated
+[11/13/23 09:41:40]: Power shutdown delay set to 0 s
+[11/13/23 09:41:40]: Gravity (x y z): 0         0        -9.81
+[11/13/23 09:41:40]: Power hour count = 0:11:58
+[11/13/23 09:41:40]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 09:41:40]: COM-PC: server created on all interfaces [5653]
+[11/13/23 09:41:40]: VAL3: s6.8 Feb  9 2010
+[11/13/23 09:41:40]: Option testMode: demo 
+[11/13/23 09:41:40]: Configuration Version: D24266415A 
+[11/13/23 09:41:40]: Machine Number: ? 
+[11/13/23 09:41:40]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 09:41:40]: Arm serial number: ? 
+[11/13/23 09:41:40]: EP: s6.8 Feb  3 2010
+[11/13/23 09:41:40]: SCA: s6.8 Feb  3 2010
+[11/13/23 09:41:40]: PLC: s6.8 Feb  3 2010
+[11/13/23 09:41:40]: New profile : default
+[11/13/23 09:41:40]: COM-PC: create session 127.0.0.1 on port 54263 id=#54383568
+[11/13/23 09:41:41]: Working mode:manual.
+[11/13/23 09:41:41]: End of arm power shutdown phase.
+[11/13/23 09:41:53]: COM-PC: destroy session 127.0.0.1 on port 54263 id=#54383568
+[11/13/23 09:42:59]: Settling arm power...
+[11/13/23 09:42:59]: Arm power settled.
+[11/13/23 09:43:00]: Unknown event:motion generator activated
+[11/13/23 09:43:02]: COM-PC: create session 127.0.0.1 on port 54293 id=#54383984
+[11/13/23 09:43:50]: MCP communication disconnected
+[11/13/23 09:43:50]: Arm power shutdown: working mode change.
+[11/13/23 09:43:50]: Arm power shutdown...
+[11/13/23 09:43:50]: Unknown event:motion generator desactivated
+[11/13/23 09:43:52]: End of arm power shutdown phase.
+[11/13/23 09:44:04]: -----------------------------------------------
+[11/13/23 09:44:04]: Logger started
+[11/13/23 09:44:09]: Unknown event:Communication established
+[11/13/23 09:44:09]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 09:44:09]: Cycle time set to 0.004s
+[11/13/23 09:44:09]: Simulation cycle time set to 0.1s
+[11/13/23 09:44:09]: Controller IP address could not be updated
+[11/13/23 09:44:09]: STARC : No STARC board detected on PCI.
+[11/13/23 09:44:09]: Mcp = TSimulated
+[11/13/23 09:44:09]: Power shutdown delay set to 0 s
+[11/13/23 09:44:09]: Gravity (x y z): 0         0        -9.81
+[11/13/23 09:44:09]: Power hour count = 0:11:58
+[11/13/23 09:44:09]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 09:44:09]: COM-PC: server created on all interfaces [5653]
+[11/13/23 09:44:09]: VAL3: s6.8 Feb  9 2010
+[11/13/23 09:44:09]: Option testMode: demo 
+[11/13/23 09:44:09]: Configuration Version: D24266415A 
+[11/13/23 09:44:09]: Machine Number: ? 
+[11/13/23 09:44:09]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 09:44:09]: Arm serial number: ? 
+[11/13/23 09:44:09]: EP: s6.8 Feb  3 2010
+[11/13/23 09:44:09]: SCA: s6.8 Feb  3 2010
+[11/13/23 09:44:09]: PLC: s6.8 Feb  3 2010
+[11/13/23 09:44:09]: New profile : default
+[11/13/23 09:44:09]: Working mode:manual.
+[11/13/23 09:44:10]: End of arm power shutdown phase.
+[11/13/23 09:44:18]: COM-PC: create session 127.0.0.1 on port 54329 id=#60057176
+[11/13/23 09:44:32]: Cannot apply arm power: release & press deadman to enable arm power request.
+[11/13/23 09:44:48]: Settling arm power...
+[11/13/23 09:44:48]: Arm power settled.
+[11/13/23 09:44:49]: Unknown event:motion generator activated
+[11/13/23 09:45:15]: AppTto application started
+[11/13/23 09:45:15]: ERR 81 Invalid data for the connected arm
+[11/13/23 09:45:15]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 09:45:27]: MCP communication disconnected
+[11/13/23 09:45:27]: Arm power shutdown: working mode change.
+[11/13/23 09:45:27]: Arm power shutdown...
+[11/13/23 09:45:27]: Unknown event:motion generator desactivated
+[11/13/23 09:51:15]: -----------------------------------------------
+[11/13/23 09:51:15]: Logger started
+[11/13/23 09:51:19]: Unknown event:Communication established
+[11/13/23 09:51:19]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 09:51:19]: Cycle time set to 0.004s
+[11/13/23 09:51:19]: Simulation cycle time set to 0.1s
+[11/13/23 09:51:19]: Controller IP address could not be updated
+[11/13/23 09:51:19]: STARC : No STARC board detected on PCI.
+[11/13/23 09:51:19]: Mcp = TSimulated
+[11/13/23 09:51:19]: Power shutdown delay set to 0 s
+[11/13/23 09:51:19]: Gravity (x y z): 0         0        -9.81
+[11/13/23 09:51:19]: Power hour count = 0:11:58
+[11/13/23 09:51:19]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 09:51:19]: COM-PC: server created on all interfaces [5653]
+[11/13/23 09:51:19]: VAL3: s6.8 Feb  9 2010
+[11/13/23 09:51:19]: Option testMode: demo 
+[11/13/23 09:51:19]: Configuration Version: D24266415A 
+[11/13/23 09:51:19]: Machine Number: ? 
+[11/13/23 09:51:19]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 09:51:19]: Arm serial number: ? 
+[11/13/23 09:51:19]: EP: s6.8 Feb  3 2010
+[11/13/23 09:51:19]: SCA: s6.8 Feb  3 2010
+[11/13/23 09:51:19]: PLC: s6.8 Feb  3 2010
+[11/13/23 09:51:19]: New profile : default
+[11/13/23 09:51:20]: COM-PC: create session 127.0.0.1 on port 54504 id=#59809496
+[11/13/23 09:51:20]: Working mode:manual.
+[11/13/23 09:51:20]: End of arm power shutdown phase.
+[11/13/23 09:51:34]: Settling arm power...
+[11/13/23 09:51:34]: Arm power settled.
+[11/13/23 09:51:34]: Unknown event:motion generator activated
+[11/13/23 09:52:44]: AppTto application started
+[11/13/23 09:52:44]: ERR 81 Invalid data for the connected arm
+[11/13/23 09:52:44]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 09:54:03]: AppTto application stopped
+[11/13/23 09:54:08]: Unknown event:motion generator desactivated
+[11/13/23 09:54:09]: Arm power shutdown...
+[11/13/23 09:54:10]: End of arm power shutdown phase.
+[11/13/23 09:54:12]: MCP communication disconnected
+[11/13/23 09:54:12]: Saving controller context...
+[11/13/23 09:54:12]: Controller temperature: 28°C
+[11/13/23 09:54:12]: CPU temperature: 28°C
+[11/13/23 10:50:18]: -----------------------------------------------
+[11/13/23 10:50:18]: Logger started
+[11/13/23 10:50:22]: Unknown event:Communication established
+[11/13/23 10:50:22]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 10:50:22]: Cycle time set to 0.004s
+[11/13/23 10:50:22]: Simulation cycle time set to 0.1s
+[11/13/23 10:50:22]: Controller IP address could not be updated
+[11/13/23 10:50:22]: STARC : No STARC board detected on PCI.
+[11/13/23 10:50:22]: Mcp = TSimulated
+[11/13/23 10:50:22]: Power shutdown delay set to 0 s
+[11/13/23 10:50:22]: Gravity (x y z): 0         0        -9.81
+[11/13/23 10:50:22]: Power hour count = 0:14:20
+[11/13/23 10:50:22]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 10:50:22]: COM-PC: server created on all interfaces [5653]
+[11/13/23 10:50:22]: VAL3: s6.8 Feb  9 2010
+[11/13/23 10:50:22]: Option testMode: demo 
+[11/13/23 10:50:22]: Configuration Version: D24266415A 
+[11/13/23 10:50:22]: Machine Number: ? 
+[11/13/23 10:50:22]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 10:50:22]: Arm serial number: ? 
+[11/13/23 10:50:22]: EP: s6.8 Feb  3 2010
+[11/13/23 10:50:22]: SCA: s6.8 Feb  3 2010
+[11/13/23 10:50:22]: PLC: s6.8 Feb  3 2010
+[11/13/23 10:50:22]: New profile : default
+[11/13/23 10:50:23]: Working mode:manual.
+[11/13/23 10:50:23]: End of arm power shutdown phase.
+[11/13/23 10:50:39]: (File SetFrames.pgx-line 2) 'nfrError' : invalid name
+[11/13/23 10:50:46]: MCP communication disconnected
+[11/13/23 10:52:13]: -----------------------------------------------
+[11/13/23 10:52:13]: Logger started
+[11/13/23 10:52:17]: Unknown event:Communication established
+[11/13/23 10:52:17]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 10:52:17]: Cycle time set to 0.004s
+[11/13/23 10:52:17]: Simulation cycle time set to 0.1s
+[11/13/23 10:52:17]: Controller IP address could not be updated
+[11/13/23 10:52:17]: STARC : No STARC board detected on PCI.
+[11/13/23 10:52:17]: Mcp = TSimulated
+[11/13/23 10:52:17]: Power shutdown delay set to 0 s
+[11/13/23 10:52:17]: Gravity (x y z): 0         0        -9.81
+[11/13/23 10:52:17]: Power hour count = 0:14:20
+[11/13/23 10:52:17]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 10:52:17]: COM-PC: server created on all interfaces [5653]
+[11/13/23 10:52:17]: VAL3: s6.8 Feb  9 2010
+[11/13/23 10:52:17]: Option testMode: demo 
+[11/13/23 10:52:17]: Configuration Version: D24266415A 
+[11/13/23 10:52:17]: Machine Number: ? 
+[11/13/23 10:52:17]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 10:52:17]: Arm serial number: ? 
+[11/13/23 10:52:17]: EP: s6.8 Feb  3 2010
+[11/13/23 10:52:17]: SCA: s6.8 Feb  3 2010
+[11/13/23 10:52:17]: PLC: s6.8 Feb  3 2010
+[11/13/23 10:52:17]: New profile : default
+[11/13/23 10:52:18]: Working mode:manual.
+[11/13/23 10:52:18]: End of arm power shutdown phase.
+[11/13/23 10:52:25]: COM-PC: create session 127.0.0.1 on port 63545 id=#50449720
+[11/13/23 10:52:31]: Settling arm power...
+[11/13/23 10:52:32]: Arm power settled.
+[11/13/23 10:52:32]: Unknown event:motion generator activated
+[11/13/23 10:52:43]: AppTto application started
+[11/13/23 10:52:43]: ERR 81 Invalid data for the connected arm
+[11/13/23 10:52:43]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 10:53:05]: MCP communication disconnected
+[11/13/23 10:53:05]: Arm power shutdown: working mode change.
+[11/13/23 10:53:05]: Arm power shutdown...
+[11/13/23 10:53:05]: Unknown event:motion generator desactivated
+[11/13/23 10:53:06]: End of arm power shutdown phase.
+[11/13/23 10:54:19]: -----------------------------------------------
+[11/13/23 10:54:19]: Logger started
+[11/13/23 10:54:23]: Unknown event:Communication established
+[11/13/23 10:54:23]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 10:54:23]: Cycle time set to 0.004s
+[11/13/23 10:54:23]: Simulation cycle time set to 0.1s
+[11/13/23 10:54:23]: Controller IP address could not be updated
+[11/13/23 10:54:23]: STARC : No STARC board detected on PCI.
+[11/13/23 10:54:23]: Mcp = TSimulated
+[11/13/23 10:54:23]: Power shutdown delay set to 0 s
+[11/13/23 10:54:23]: Gravity (x y z): 0         0        -9.81
+[11/13/23 10:54:23]: Power hour count = 0:14:20
+[11/13/23 10:54:23]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 10:54:23]: COM-PC: server created on all interfaces [5653]
+[11/13/23 10:54:23]: VAL3: s6.8 Feb  9 2010
+[11/13/23 10:54:23]: Option testMode: demo 
+[11/13/23 10:54:23]: Configuration Version: D24266415A 
+[11/13/23 10:54:23]: Machine Number: ? 
+[11/13/23 10:54:23]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 10:54:23]: Arm serial number: ? 
+[11/13/23 10:54:23]: EP: s6.8 Feb  3 2010
+[11/13/23 10:54:23]: SCA: s6.8 Feb  3 2010
+[11/13/23 10:54:23]: PLC: s6.8 Feb  3 2010
+[11/13/23 10:54:23]: New profile : default
+[11/13/23 10:54:24]: Working mode:manual.
+[11/13/23 10:54:24]: End of arm power shutdown phase.
+[11/13/23 10:54:30]: COM-PC: create session 127.0.0.1 on port 63600 id=#60337560
+[11/13/23 10:54:35]: Settling arm power...
+[11/13/23 10:54:35]: Arm power settled.
+[11/13/23 10:54:35]: Unknown event:motion generator activated
+[11/13/23 10:54:47]: AppTto application started
+[11/13/23 10:54:47]: ERR 81 Invalid data for the connected arm
+[11/13/23 10:54:47]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 10:56:53]: MCP communication disconnected
+[11/13/23 10:56:53]: Arm power shutdown: working mode change.
+[11/13/23 10:56:53]: Arm power shutdown...
+[11/13/23 10:56:53]: Unknown event:motion generator desactivated
+[11/13/23 10:57:07]: -----------------------------------------------
+[11/13/23 10:57:07]: Logger started
+[11/13/23 10:57:11]: Unknown event:Communication established
+[11/13/23 10:57:11]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 10:57:11]: Cycle time set to 0.004s
+[11/13/23 10:57:11]: Simulation cycle time set to 0.1s
+[11/13/23 10:57:11]: Controller IP address could not be updated
+[11/13/23 10:57:11]: STARC : No STARC board detected on PCI.
+[11/13/23 10:57:11]: Mcp = TSimulated
+[11/13/23 10:57:11]: Power shutdown delay set to 0 s
+[11/13/23 10:57:11]: Gravity (x y z): 0         0        -9.81
+[11/13/23 10:57:11]: Power hour count = 0:14:20
+[11/13/23 10:57:11]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 10:57:11]: COM-PC: server created on all interfaces [5653]
+[11/13/23 10:57:11]: VAL3: s6.8 Feb  9 2010
+[11/13/23 10:57:11]: Option testMode: demo 
+[11/13/23 10:57:11]: Configuration Version: D24266415A 
+[11/13/23 10:57:11]: Machine Number: ? 
+[11/13/23 10:57:11]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 10:57:11]: Arm serial number: ? 
+[11/13/23 10:57:11]: EP: s6.8 Feb  3 2010
+[11/13/23 10:57:11]: SCA: s6.8 Feb  3 2010
+[11/13/23 10:57:11]: PLC: s6.8 Feb  3 2010
+[11/13/23 10:57:11]: New profile : default
+[11/13/23 10:57:12]: Working mode:manual.
+[11/13/23 10:57:12]: End of arm power shutdown phase.
+[11/13/23 10:57:19]: COM-PC: create session 127.0.0.1 on port 63673 id=#60495448
+[11/13/23 10:57:23]: Settling arm power...
+[11/13/23 10:57:24]: Arm power settled.
+[11/13/23 10:57:24]: Unknown event:motion generator activated
+[11/13/23 10:57:43]: AppTto application started
+[11/13/23 10:57:43]: ERR 81 Invalid data for the connected arm
+[11/13/23 10:57:43]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 10:58:05]: MCP communication disconnected
+[11/13/23 10:58:05]: Arm power shutdown: working mode change.
+[11/13/23 10:58:05]: Arm power shutdown...
+[11/13/23 10:58:05]: Unknown event:motion generator desactivated
+[11/13/23 10:58:06]: End of arm power shutdown phase.
+[11/13/23 10:58:25]: -----------------------------------------------
+[11/13/23 10:58:25]: Logger started
+[11/13/23 10:58:30]: Unknown event:Communication established
+[11/13/23 10:58:30]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 10:58:30]: Cycle time set to 0.004s
+[11/13/23 10:58:30]: Simulation cycle time set to 0.1s
+[11/13/23 10:58:30]: Controller IP address could not be updated
+[11/13/23 10:58:30]: STARC : No STARC board detected on PCI.
+[11/13/23 10:58:30]: Mcp = TSimulated
+[11/13/23 10:58:30]: Power shutdown delay set to 0 s
+[11/13/23 10:58:30]: Gravity (x y z): 0         0        -9.81
+[11/13/23 10:58:30]: Power hour count = 0:14:20
+[11/13/23 10:58:30]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 10:58:30]: COM-PC: server created on all interfaces [5653]
+[11/13/23 10:58:30]: VAL3: s6.8 Feb  9 2010
+[11/13/23 10:58:30]: Option testMode: demo 
+[11/13/23 10:58:30]: Configuration Version: D24266415A 
+[11/13/23 10:58:30]: Machine Number: ? 
+[11/13/23 10:58:30]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 10:58:30]: Arm serial number: ? 
+[11/13/23 10:58:30]: EP: s6.8 Feb  3 2010
+[11/13/23 10:58:30]: SCA: s6.8 Feb  3 2010
+[11/13/23 10:58:30]: PLC: s6.8 Feb  3 2010
+[11/13/23 10:58:30]: New profile : default
+[11/13/23 10:58:30]: Working mode:manual.
+[11/13/23 10:58:31]: End of arm power shutdown phase.
+[11/13/23 10:58:38]: COM-PC: create session 127.0.0.1 on port 63711 id=#60467704
+[11/13/23 10:58:42]: Jog mode cannot be selected: first enable arm power.
+[11/13/23 10:58:49]: Settling arm power...
+[11/13/23 10:58:49]: Arm power settled.
+[11/13/23 10:58:50]: Unknown event:motion generator activated
+[11/13/23 10:58:56]: AppTto application started
+[11/13/23 10:58:56]: ERR 81 Invalid data for the connected arm
+[11/13/23 10:58:56]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:00:02]: Arm power shutdown: working mode change.
+[11/13/23 11:00:02]: Arm power shutdown...
+[11/13/23 11:00:02]: Unknown event:motion generator desactivated
+[11/13/23 11:00:02]: MCP communication disconnected
+[11/13/23 11:00:03]: End of arm power shutdown phase.
+[11/13/23 11:00:17]: -----------------------------------------------
+[11/13/23 11:00:17]: Logger started
+[11/13/23 11:00:21]: Unknown event:Communication established
+[11/13/23 11:00:22]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 11:00:22]: Cycle time set to 0.004s
+[11/13/23 11:00:22]: Simulation cycle time set to 0.1s
+[11/13/23 11:00:22]: Controller IP address could not be updated
+[11/13/23 11:00:22]: STARC : No STARC board detected on PCI.
+[11/13/23 11:00:22]: Mcp = TSimulated
+[11/13/23 11:00:22]: Power shutdown delay set to 0 s
+[11/13/23 11:00:22]: Gravity (x y z): 0         0        -9.81
+[11/13/23 11:00:22]: Power hour count = 0:14:20
+[11/13/23 11:00:22]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 11:00:22]: COM-PC: server created on all interfaces [5653]
+[11/13/23 11:00:22]: VAL3: s6.8 Feb  9 2010
+[11/13/23 11:00:22]: Option testMode: demo 
+[11/13/23 11:00:22]: Configuration Version: D24266415A 
+[11/13/23 11:00:22]: Machine Number: ? 
+[11/13/23 11:00:22]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 11:00:22]: Arm serial number: ? 
+[11/13/23 11:00:22]: EP: s6.8 Feb  3 2010
+[11/13/23 11:00:22]: SCA: s6.8 Feb  3 2010
+[11/13/23 11:00:22]: PLC: s6.8 Feb  3 2010
+[11/13/23 11:00:22]: New profile : default
+[11/13/23 11:00:22]: Working mode:manual.
+[11/13/23 11:00:23]: End of arm power shutdown phase.
+[11/13/23 11:00:28]: COM-PC: create session 127.0.0.1 on port 63762 id=#54251728
+[11/13/23 11:00:33]: Settling arm power...
+[11/13/23 11:00:34]: Arm power settled.
+[11/13/23 11:00:34]: Unknown event:motion generator activated
+[11/13/23 11:00:42]: AppTto application started
+[11/13/23 11:00:42]: ERR 81 Invalid data for the connected arm
+[11/13/23 11:00:42]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:01:05]: MCP communication disconnected
+[11/13/23 11:01:05]: Arm power shutdown: working mode change.
+[11/13/23 11:01:05]: Arm power shutdown...
+[11/13/23 11:01:05]: Unknown event:motion generator desactivated
+[11/13/23 11:01:07]: End of arm power shutdown phase.
+[11/13/23 11:01:36]: -----------------------------------------------
+[11/13/23 11:01:36]: Logger started
+[11/13/23 11:01:40]: Unknown event:Communication established
+[11/13/23 11:01:41]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 11:01:41]: Cycle time set to 0.004s
+[11/13/23 11:01:41]: Simulation cycle time set to 0.1s
+[11/13/23 11:01:41]: Controller IP address could not be updated
+[11/13/23 11:01:41]: STARC : No STARC board detected on PCI.
+[11/13/23 11:01:41]: Mcp = TSimulated
+[11/13/23 11:01:41]: Power shutdown delay set to 0 s
+[11/13/23 11:01:41]: Gravity (x y z): 0         0        -9.81
+[11/13/23 11:01:41]: Power hour count = 0:14:20
+[11/13/23 11:01:41]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 11:01:41]: COM-PC: server created on all interfaces [5653]
+[11/13/23 11:01:41]: VAL3: s6.8 Feb  9 2010
+[11/13/23 11:01:41]: Option testMode: demo 
+[11/13/23 11:01:41]: Configuration Version: D24266415A 
+[11/13/23 11:01:41]: Machine Number: ? 
+[11/13/23 11:01:41]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 11:01:41]: Arm serial number: ? 
+[11/13/23 11:01:41]: EP: s6.8 Feb  3 2010
+[11/13/23 11:01:41]: SCA: s6.8 Feb  3 2010
+[11/13/23 11:01:41]: PLC: s6.8 Feb  3 2010
+[11/13/23 11:01:41]: New profile : default
+[11/13/23 11:01:41]: Working mode:manual.
+[11/13/23 11:01:42]: End of arm power shutdown phase.
+[11/13/23 11:01:47]: COM-PC: create session 127.0.0.1 on port 63797 id=#60344392
+[11/13/23 11:01:55]: Settling arm power...
+[11/13/23 11:01:55]: Arm power settled.
+[11/13/23 11:01:55]: Unknown event:motion generator activated
+[11/13/23 11:02:01]: AppTto application started
+[11/13/23 11:02:01]: ERR 81 Invalid data for the connected arm
+[11/13/23 11:02:01]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:03:15]: MCP communication disconnected
+[11/13/23 11:03:15]: Arm power shutdown: working mode change.
+[11/13/23 11:03:15]: Arm power shutdown...
+[11/13/23 11:03:15]: Unknown event:motion generator desactivated
+[11/13/23 11:03:16]: End of arm power shutdown phase.
+[11/13/23 11:04:32]: -----------------------------------------------
+[11/13/23 11:04:32]: Logger started
+[11/13/23 11:04:36]: Unknown event:Communication established
+[11/13/23 11:04:37]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 11:04:37]: Cycle time set to 0.004s
+[11/13/23 11:04:37]: Simulation cycle time set to 0.1s
+[11/13/23 11:04:37]: Controller IP address could not be updated
+[11/13/23 11:04:37]: STARC : No STARC board detected on PCI.
+[11/13/23 11:04:37]: Mcp = TSimulated
+[11/13/23 11:04:37]: Power shutdown delay set to 0 s
+[11/13/23 11:04:37]: Gravity (x y z): 0         0        -9.81
+[11/13/23 11:04:37]: Power hour count = 0:14:20
+[11/13/23 11:04:37]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 11:04:37]: COM-PC: server created on all interfaces [5653]
+[11/13/23 11:04:37]: VAL3: s6.8 Feb  9 2010
+[11/13/23 11:04:37]: Option testMode: demo 
+[11/13/23 11:04:37]: Configuration Version: D24266415A 
+[11/13/23 11:04:37]: Machine Number: ? 
+[11/13/23 11:04:37]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 11:04:37]: Arm serial number: ? 
+[11/13/23 11:04:37]: EP: s6.8 Feb  3 2010
+[11/13/23 11:04:37]: SCA: s6.8 Feb  3 2010
+[11/13/23 11:04:37]: PLC: s6.8 Feb  3 2010
+[11/13/23 11:04:37]: New profile : default
+[11/13/23 11:04:37]: Working mode:manual.
+[11/13/23 11:04:38]: End of arm power shutdown phase.
+[11/13/23 11:04:43]: COM-PC: create session 127.0.0.1 on port 63864 id=#55033104
+[11/13/23 11:04:48]: Settling arm power...
+[11/13/23 11:04:49]: Arm power settled.
+[11/13/23 11:04:49]: Unknown event:motion generator activated
+[11/13/23 11:04:55]: AppTto application started
+[11/13/23 11:04:55]: ERR 81 Invalid data for the connected arm
+[11/13/23 11:04:55]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:07:35]: MCP communication disconnected
+[11/13/23 11:07:35]: Arm power shutdown: working mode change.
+[11/13/23 11:07:35]: Arm power shutdown...
+[11/13/23 11:07:35]: Unknown event:motion generator desactivated
+[11/13/23 11:07:36]: End of arm power shutdown phase.
+[11/13/23 11:07:47]: -----------------------------------------------
+[11/13/23 11:07:47]: Logger started
+[11/13/23 11:07:52]: Unknown event:Communication established
+[11/13/23 11:07:52]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 11:07:52]: Cycle time set to 0.004s
+[11/13/23 11:07:52]: Simulation cycle time set to 0.1s
+[11/13/23 11:07:52]: Controller IP address could not be updated
+[11/13/23 11:07:52]: STARC : No STARC board detected on PCI.
+[11/13/23 11:07:52]: Mcp = TSimulated
+[11/13/23 11:07:52]: Power shutdown delay set to 0 s
+[11/13/23 11:07:52]: Gravity (x y z): 0         0        -9.81
+[11/13/23 11:07:52]: Power hour count = 0:14:20
+[11/13/23 11:07:52]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 11:07:52]: COM-PC: server created on all interfaces [5653]
+[11/13/23 11:07:52]: VAL3: s6.8 Feb  9 2010
+[11/13/23 11:07:52]: Option testMode: demo 
+[11/13/23 11:07:52]: Configuration Version: D24266415A 
+[11/13/23 11:07:52]: Machine Number: ? 
+[11/13/23 11:07:52]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 11:07:52]: Arm serial number: ? 
+[11/13/23 11:07:52]: EP: s6.8 Feb  3 2010
+[11/13/23 11:07:52]: SCA: s6.8 Feb  3 2010
+[11/13/23 11:07:52]: PLC: s6.8 Feb  3 2010
+[11/13/23 11:07:52]: New profile : default
+[11/13/23 11:07:52]: Working mode:manual.
+[11/13/23 11:07:53]: End of arm power shutdown phase.
+[11/13/23 11:07:59]: COM-PC: create session 127.0.0.1 on port 63951 id=#61254864
+[11/13/23 11:08:06]: Settling arm power...
+[11/13/23 11:08:07]: Arm power settled.
+[11/13/23 11:08:07]: Unknown event:motion generator activated
+[11/13/23 11:08:11]: AppTto application started
+[11/13/23 11:08:11]: ERR 81 Invalid data for the connected arm
+[11/13/23 11:08:11]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:19:00]: Arm power shutdown: working mode change.
+[11/13/23 11:19:00]: Arm power shutdown...
+[11/13/23 11:19:00]: Unknown event:motion generator desactivated
+[11/13/23 11:19:00]: MCP communication disconnected
+[11/13/23 11:19:10]: -----------------------------------------------
+[11/13/23 11:19:10]: Logger started
+[11/13/23 11:19:14]: Unknown event:Communication established
+[11/13/23 11:19:14]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/13/23 11:19:14]: Cycle time set to 0.004s
+[11/13/23 11:19:14]: Simulation cycle time set to 0.1s
+[11/13/23 11:19:14]: Controller IP address could not be updated
+[11/13/23 11:19:14]: STARC : No STARC board detected on PCI.
+[11/13/23 11:19:14]: Mcp = TSimulated
+[11/13/23 11:19:14]: Power shutdown delay set to 0 s
+[11/13/23 11:19:14]: Gravity (x y z): 0         0        -9.81
+[11/13/23 11:19:14]: Power hour count = 0:14:20
+[11/13/23 11:19:14]: Mac Address = 84-fd-d1-6c-63-ad
+[11/13/23 11:19:14]: COM-PC: server created on all interfaces [5653]
+[11/13/23 11:19:14]: VAL3: s6.8 Feb  9 2010
+[11/13/23 11:19:14]: Option testMode: demo 
+[11/13/23 11:19:14]: Configuration Version: D24266415A 
+[11/13/23 11:19:14]: Machine Number: ? 
+[11/13/23 11:19:14]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/13/23 11:19:14]: Arm serial number: ? 
+[11/13/23 11:19:14]: EP: s6.8 Feb  3 2010
+[11/13/23 11:19:14]: SCA: s6.8 Feb  3 2010
+[11/13/23 11:19:14]: PLC: s6.8 Feb  3 2010
+[11/13/23 11:19:14]: New profile : default
+[11/13/23 11:19:15]: Working mode:manual.
+[11/13/23 11:19:15]: End of arm power shutdown phase.
+[11/13/23 11:19:24]: COM-PC: create session 127.0.0.1 on port 50783 id=#60003824
+[11/13/23 11:19:31]: Settling arm power...
+[11/13/23 11:19:31]: Arm power settled.
+[11/13/23 11:19:32]: Unknown event:motion generator activated
+[11/13/23 11:19:36]: AppTto application started
+[11/13/23 11:19:36]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:20:23]: AppTto application stopped
+[11/13/23 11:20:41]: AppTto application started
+[11/13/23 11:20:41]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/13/23 11:21:00]: AppTto application stopped
+[11/13/23 11:22:10]: MCP communication disconnected
+[11/13/23 11:22:11]: Arm power shutdown: working mode change.
+[11/13/23 11:22:11]: Arm power shutdown...
+[11/13/23 11:22:11]: Unknown event:motion generator desactivated
+[11/16/23 11:09:36]: -----------------------------------------------
+[11/16/23 11:09:36]: Logger started
+[11/16/23 11:09:40]: Unknown event:Communication established
+[11/16/23 11:09:40]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/16/23 11:09:40]: Cycle time set to 0.004s
+[11/16/23 11:09:40]: Simulation cycle time set to 0.1s
+[11/16/23 11:09:40]: Controller IP address could not be updated
+[11/16/23 11:09:40]: STARC : No STARC board detected on PCI.
+[11/16/23 11:09:40]: Mcp = TSimulated
+[11/16/23 11:09:40]: Power shutdown delay set to 0 s
+[11/16/23 11:09:40]: Gravity (x y z): 0         0        -9.81
+[11/16/23 11:09:40]: Power hour count = 0:14:20
+[11/16/23 11:09:40]: Mac Address = 84-fd-d1-6c-63-ad
+[11/16/23 11:09:40]: COM-PC: server created on all interfaces [5653]
+[11/16/23 11:09:40]: VAL3: s6.8 Feb  9 2010
+[11/16/23 11:09:40]: Option testMode: demo 
+[11/16/23 11:09:40]: Configuration Version: D24266415A 
+[11/16/23 11:09:40]: Machine Number: ? 
+[11/16/23 11:09:40]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/16/23 11:09:40]: Arm serial number: ? 
+[11/16/23 11:09:40]: EP: s6.8 Feb  3 2010
+[11/16/23 11:09:40]: SCA: s6.8 Feb  3 2010
+[11/16/23 11:09:40]: PLC: s6.8 Feb  3 2010
+[11/16/23 11:09:40]: New profile : default
+[11/16/23 11:09:41]: Working mode:manual.
+[11/16/23 11:09:41]: COM-PC: create session 127.0.0.1 on port 50099 id=#54582808
+[11/16/23 11:09:41]: End of arm power shutdown phase.
+[11/16/23 11:10:00]: COM-PC: destroy session 127.0.0.1 on port 50099 id=#54582808
+[11/16/23 11:13:07]: COM-PC: create session 127.0.0.1 on port 50144 id=#54584160
+[11/16/23 11:13:15]: Settling arm power...
+[11/16/23 11:13:16]: Arm power settled.
+[11/16/23 11:13:16]: Unknown event:motion generator activated
+[11/16/23 11:13:20]: AppTto application started
+[11/16/23 11:13:20]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/16/23 11:13:45]: AppTto application stopped
+[11/16/23 12:03:53]: MCP communication disconnected
+[11/16/23 12:03:53]: Arm power shutdown: working mode change.
+[11/16/23 12:03:53]: Arm power shutdown...
+[11/16/23 12:03:53]: Unknown event:motion generator desactivated
+[11/27/23 10:45:21]: -----------------------------------------------
+[11/27/23 10:45:21]: Logger started
+[11/27/23 10:45:25]: Unknown event:Communication established
+[11/27/23 10:45:25]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 10:45:25]: Cycle time set to 0.004s
+[11/27/23 10:45:25]: Simulation cycle time set to 0.1s
+[11/27/23 10:45:25]: Controller IP address could not be updated
+[11/27/23 10:45:25]: STARC : No STARC board detected on PCI.
+[11/27/23 10:45:25]: Mcp = TSimulated
+[11/27/23 10:45:25]: Power shutdown delay set to 0 s
+[11/27/23 10:45:25]: Gravity (x y z): 0         0        -9.81
+[11/27/23 10:45:25]: Power hour count = 0:14:20
+[11/27/23 10:45:25]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 10:45:25]: COM-PC: server created on all interfaces [5653]
+[11/27/23 10:45:25]: VAL3: s6.8 Feb  9 2010
+[11/27/23 10:45:25]: Option testMode: demo 
+[11/27/23 10:45:25]: Configuration Version: D24266415A 
+[11/27/23 10:45:25]: Machine Number: ? 
+[11/27/23 10:45:25]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 10:45:25]: Arm serial number: ? 
+[11/27/23 10:45:25]: EP: s6.8 Feb  3 2010
+[11/27/23 10:45:25]: SCA: s6.8 Feb  3 2010
+[11/27/23 10:45:25]: PLC: s6.8 Feb  3 2010
+[11/27/23 10:45:25]: New profile : default
+[11/27/23 10:45:26]: COM-PC: create session 127.0.0.1 on port 61671 id=#60396208
+[11/27/23 10:45:26]: Working mode:manual.
+[11/27/23 10:45:26]: End of arm power shutdown phase.
+[11/27/23 10:45:44]: (File start.pgx-line 142) Missing keyword : 'begin'
+[11/27/23 10:45:54]: MCP communication disconnected
+[11/27/23 10:52:00]: -----------------------------------------------
+[11/27/23 10:52:00]: Logger started
+[11/27/23 10:52:05]: Unknown event:Communication established
+[11/27/23 10:52:05]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 10:52:05]: Cycle time set to 0.004s
+[11/27/23 10:52:05]: Simulation cycle time set to 0.1s
+[11/27/23 10:52:05]: Controller IP address could not be updated
+[11/27/23 10:52:05]: STARC : No STARC board detected on PCI.
+[11/27/23 10:52:05]: Mcp = TSimulated
+[11/27/23 10:52:05]: Power shutdown delay set to 0 s
+[11/27/23 10:52:05]: Gravity (x y z): 0         0        -9.81
+[11/27/23 10:52:05]: Power hour count = 0:14:20
+[11/27/23 10:52:05]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 10:52:05]: COM-PC: server created on all interfaces [5653]
+[11/27/23 10:52:05]: VAL3: s6.8 Feb  9 2010
+[11/27/23 10:52:05]: Option testMode: demo 
+[11/27/23 10:52:05]: Configuration Version: D24266415A 
+[11/27/23 10:52:05]: Machine Number: ? 
+[11/27/23 10:52:05]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 10:52:05]: Arm serial number: ? 
+[11/27/23 10:52:05]: EP: s6.8 Feb  3 2010
+[11/27/23 10:52:05]: SCA: s6.8 Feb  3 2010
+[11/27/23 10:52:05]: PLC: s6.8 Feb  3 2010
+[11/27/23 10:52:05]: New profile : default
+[11/27/23 10:52:05]: Working mode:manual.
+[11/27/23 10:52:06]: End of arm power shutdown phase.
+[11/27/23 10:52:07]: COM-PC: create session 127.0.0.1 on port 61839 id=#60485536
+[11/27/23 10:52:23]: Working mode:test.
+[11/27/23 10:52:27]: Saving controller context...
+[11/27/23 10:52:27]: Controller temperature: 28°C
+[11/27/23 10:52:27]: CPU temperature: 28°C
+[11/27/23 10:52:29]: Settling arm power...
+[11/27/23 10:52:30]: Arm power shutdown: working mode change.
+[11/27/23 10:52:30]: Arm power shutdown...
+[11/27/23 10:52:30]: Working mode:remote.
+[11/27/23 10:52:31]: End of arm power shutdown phase.
+[11/27/23 10:52:32]: Working mode:automatic.
+[11/27/23 10:52:34]: Working mode:manual.
+[11/27/23 10:52:37]: Saving controller context...
+[11/27/23 10:52:39]: Settling arm power...
+[11/27/23 10:52:39]: Arm power settled.
+[11/27/23 10:52:40]: Unknown event:motion generator activated
+[11/27/23 10:52:47]: AppTto application started
+[11/27/23 10:52:47]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/27/23 10:53:18]: ERR 20 Access to an array with index larger than the array's size.
+[11/27/23 10:53:37]: Arm power shutdown: working mode change.
+[11/27/23 10:53:37]: Arm power shutdown...
+[11/27/23 10:53:37]: Unknown event:motion generator desactivated
+[11/27/23 10:53:37]: Working mode:test.
+[11/27/23 10:53:38]: End of arm power shutdown phase.
+[11/27/23 10:53:39]: MCP communication disconnected
+[11/27/23 10:53:40]: Saving controller context...
+[11/27/23 10:55:08]: -----------------------------------------------
+[11/27/23 10:55:08]: Logger started
+[11/27/23 10:55:12]: Unknown event:Communication established
+[11/27/23 10:55:13]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 10:55:13]: Cycle time set to 0.004s
+[11/27/23 10:55:13]: Simulation cycle time set to 0.1s
+[11/27/23 10:55:13]: Controller IP address could not be updated
+[11/27/23 10:55:13]: STARC : No STARC board detected on PCI.
+[11/27/23 10:55:13]: Mcp = TSimulated
+[11/27/23 10:55:13]: Power shutdown delay set to 0 s
+[11/27/23 10:55:13]: Gravity (x y z): 0         0        -9.81
+[11/27/23 10:55:13]: Power hour count = 0:15:13
+[11/27/23 10:55:13]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 10:55:13]: COM-PC: server created on all interfaces [5653]
+[11/27/23 10:55:13]: VAL3: s6.8 Feb  9 2010
+[11/27/23 10:55:13]: Option testMode: demo 
+[11/27/23 10:55:13]: Configuration Version: D24266415A 
+[11/27/23 10:55:13]: Machine Number: ? 
+[11/27/23 10:55:13]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 10:55:13]: Arm serial number: ? 
+[11/27/23 10:55:13]: EP: s6.8 Feb  3 2010
+[11/27/23 10:55:13]: SCA: s6.8 Feb  3 2010
+[11/27/23 10:55:13]: PLC: s6.8 Feb  3 2010
+[11/27/23 10:55:13]: New profile : default
+[11/27/23 10:55:13]: Working mode:test.
+[11/27/23 10:55:13]: End of arm power shutdown phase.
+[11/27/23 10:55:14]: COM-PC: create session 127.0.0.1 on port 61917 id=#60869096
+[11/27/23 10:55:26]: Working mode:remote.
+[11/27/23 10:55:27]: Working mode:automatic.
+[11/27/23 10:55:28]: Working mode:manual.
+[11/27/23 10:55:32]: Saving controller context...
+[11/27/23 10:55:32]: Controller temperature: 28°C
+[11/27/23 10:55:32]: CPU temperature: 28°C
+[11/27/23 10:55:34]: Settling arm power...
+[11/27/23 10:55:34]: Arm power settled.
+[11/27/23 10:55:35]: Unknown event:motion generator activated
+[11/27/23 10:55:42]: AppTto application started
+[11/27/23 10:55:42]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/27/23 10:56:17]: ERR 20 Access to an array with index larger than the array's size.
+[11/27/23 10:56:56]: MCP communication disconnected
+[11/27/23 10:56:57]: Arm power shutdown: working mode change.
+[11/27/23 10:56:57]: Arm power shutdown...
+[11/27/23 10:56:57]: Unknown event:motion generator desactivated
+[11/27/23 10:56:58]: End of arm power shutdown phase.
+[11/27/23 10:59:43]: -----------------------------------------------
+[11/27/23 10:59:43]: Logger started
+[11/27/23 10:59:48]: Unknown event:Communication established
+[11/27/23 10:59:48]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 10:59:48]: Cycle time set to 0.004s
+[11/27/23 10:59:48]: Simulation cycle time set to 0.1s
+[11/27/23 10:59:48]: Controller IP address could not be updated
+[11/27/23 10:59:48]: STARC : No STARC board detected on PCI.
+[11/27/23 10:59:48]: Mcp = TSimulated
+[11/27/23 10:59:48]: Power shutdown delay set to 0 s
+[11/27/23 10:59:48]: Gravity (x y z): 0         0        -9.81
+[11/27/23 10:59:48]: Power hour count = 0:15:13
+[11/27/23 10:59:48]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 10:59:48]: COM-PC: server created on all interfaces [5653]
+[11/27/23 10:59:48]: VAL3: s6.8 Feb  9 2010
+[11/27/23 10:59:48]: Option testMode: demo 
+[11/27/23 10:59:48]: Configuration Version: D24266415A 
+[11/27/23 10:59:48]: Machine Number: ? 
+[11/27/23 10:59:48]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 10:59:48]: Arm serial number: ? 
+[11/27/23 10:59:48]: EP: s6.8 Feb  3 2010
+[11/27/23 10:59:48]: SCA: s6.8 Feb  3 2010
+[11/27/23 10:59:48]: PLC: s6.8 Feb  3 2010
+[11/27/23 10:59:48]: New profile : default
+[11/27/23 10:59:48]: COM-PC: create session 127.0.0.1 on port 62020 id=#59536152
+[11/27/23 10:59:48]: Working mode:manual.
+[11/27/23 10:59:49]: End of arm power shutdown phase.
+[11/27/23 11:00:06]: Settling arm power...
+[11/27/23 11:00:07]: Arm power settled.
+[11/27/23 11:00:07]: Unknown event:motion generator activated
+[11/27/23 11:00:13]: AppTto application started
+[11/27/23 11:00:13]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/27/23 11:00:46]: ERR 20 Access to an array with index larger than the array's size.
+[11/27/23 11:01:10]: MCP communication disconnected
+[11/27/23 11:01:10]: Arm power shutdown: working mode change.
+[11/27/23 11:01:10]: Arm power shutdown...
+[11/27/23 11:01:10]: Unknown event:motion generator desactivated
+[11/27/23 11:01:11]: End of arm power shutdown phase.
+[11/27/23 11:02:00]: -----------------------------------------------
+[11/27/23 11:02:00]: Logger started
+[11/27/23 11:02:05]: Unknown event:Communication established
+[11/27/23 11:02:05]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 11:02:05]: Cycle time set to 0.004s
+[11/27/23 11:02:05]: Simulation cycle time set to 0.1s
+[11/27/23 11:02:05]: Controller IP address could not be updated
+[11/27/23 11:02:05]: STARC : No STARC board detected on PCI.
+[11/27/23 11:02:05]: Mcp = TSimulated
+[11/27/23 11:02:05]: Power shutdown delay set to 0 s
+[11/27/23 11:02:05]: Gravity (x y z): 0         0        -9.81
+[11/27/23 11:02:05]: Power hour count = 0:15:13
+[11/27/23 11:02:05]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 11:02:05]: COM-PC: server created on all interfaces [5653]
+[11/27/23 11:02:05]: VAL3: s6.8 Feb  9 2010
+[11/27/23 11:02:05]: Option testMode: demo 
+[11/27/23 11:02:05]: Configuration Version: D24266415A 
+[11/27/23 11:02:05]: Machine Number: ? 
+[11/27/23 11:02:05]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 11:02:05]: Arm serial number: ? 
+[11/27/23 11:02:05]: EP: s6.8 Feb  3 2010
+[11/27/23 11:02:05]: SCA: s6.8 Feb  3 2010
+[11/27/23 11:02:05]: PLC: s6.8 Feb  3 2010
+[11/27/23 11:02:05]: New profile : default
+[11/27/23 11:02:05]: COM-PC: create session 127.0.0.1 on port 62087 id=#59509240
+[11/27/23 11:02:05]: Working mode:manual.
+[11/27/23 11:02:06]: End of arm power shutdown phase.
+[11/27/23 11:02:20]: Settling arm power...
+[11/27/23 11:02:21]: Arm power settled.
+[11/27/23 11:02:21]: Unknown event:motion generator activated
+[11/27/23 11:02:25]: AppTto application started
+[11/27/23 11:02:25]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/27/23 11:02:56]: ERR 20 Access to an array with index larger than the array's size.
+[11/27/23 11:03:13]: MCP communication disconnected
+[11/27/23 11:03:13]: Arm power shutdown: working mode change.
+[11/27/23 11:03:13]: Arm power shutdown...
+[11/27/23 11:03:13]: Unknown event:motion generator desactivated
+[11/27/23 11:08:02]: -----------------------------------------------
+[11/27/23 11:08:02]: Logger started
+[11/27/23 11:08:07]: Unknown event:Communication established
+[11/27/23 11:08:07]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 11:08:07]: Cycle time set to 0.004s
+[11/27/23 11:08:07]: Simulation cycle time set to 0.1s
+[11/27/23 11:08:07]: Controller IP address could not be updated
+[11/27/23 11:08:07]: STARC : No STARC board detected on PCI.
+[11/27/23 11:08:07]: Mcp = TSimulated
+[11/27/23 11:08:07]: Power shutdown delay set to 0 s
+[11/27/23 11:08:07]: Gravity (x y z): 0         0        -9.81
+[11/27/23 11:08:07]: Power hour count = 0:15:13
+[11/27/23 11:08:07]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 11:08:07]: COM-PC: server created on all interfaces [5653]
+[11/27/23 11:08:07]: VAL3: s6.8 Feb  9 2010
+[11/27/23 11:08:07]: Option testMode: demo 
+[11/27/23 11:08:07]: Configuration Version: D24266415A 
+[11/27/23 11:08:07]: Machine Number: ? 
+[11/27/23 11:08:07]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 11:08:07]: Arm serial number: ? 
+[11/27/23 11:08:07]: EP: s6.8 Feb  3 2010
+[11/27/23 11:08:07]: SCA: s6.8 Feb  3 2010
+[11/27/23 11:08:07]: PLC: s6.8 Feb  3 2010
+[11/27/23 11:08:07]: New profile : default
+[11/27/23 11:08:07]: COM-PC: create session 127.0.0.1 on port 50311 id=#60281000
+[11/27/23 11:08:07]: Working mode:manual.
+[11/27/23 11:08:08]: End of arm power shutdown phase.
+[11/27/23 11:08:26]: COM-PC: destroy session 127.0.0.1 on port 50311 id=#60281000
+[11/27/23 11:09:01]: COM-PC: create session 127.0.0.1 on port 50333 id=#60280896
+[11/27/23 11:09:12]: Settling arm power...
+[11/27/23 11:09:12]: Arm power settled.
+[11/27/23 11:09:13]: Unknown event:motion generator activated
+[11/27/23 11:09:16]: AppTto application started
+[11/27/23 11:09:16]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/27/23 11:09:50]: ERR 20 Access to an array with index larger than the array's size.
+[11/27/23 11:10:15]: MCP communication disconnected
+[11/27/23 11:10:15]: Arm power shutdown: working mode change.
+[11/27/23 11:10:15]: Arm power shutdown...
+[11/27/23 11:10:15]: Unknown event:motion generator desactivated
+[11/27/23 11:10:16]: End of arm power shutdown phase.
+[11/27/23 11:10:17]: Saving controller context...
+[11/27/23 11:10:17]: Controller temperature: 28°C
+[11/27/23 11:10:17]: CPU temperature: 28°C
+[11/27/23 11:13:21]: -----------------------------------------------
+[11/27/23 11:13:21]: Logger started
+[11/27/23 11:13:25]: Unknown event:Communication established
+[11/27/23 11:13:26]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/27/23 11:13:26]: Cycle time set to 0.004s
+[11/27/23 11:13:26]: Simulation cycle time set to 0.1s
+[11/27/23 11:13:26]: Controller IP address could not be updated
+[11/27/23 11:13:26]: STARC : No STARC board detected on PCI.
+[11/27/23 11:13:26]: Mcp = TSimulated
+[11/27/23 11:13:26]: Power shutdown delay set to 0 s
+[11/27/23 11:13:26]: Gravity (x y z): 0         0        -9.81
+[11/27/23 11:13:26]: Power hour count = 0:16:10
+[11/27/23 11:13:26]: Mac Address = 84-fd-d1-6c-63-ad
+[11/27/23 11:13:26]: COM-PC: server created on all interfaces [5653]
+[11/27/23 11:13:26]: VAL3: s6.8 Feb  9 2010
+[11/27/23 11:13:26]: Option testMode: demo 
+[11/27/23 11:13:26]: Configuration Version: D24266415A 
+[11/27/23 11:13:26]: Machine Number: ? 
+[11/27/23 11:13:26]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/27/23 11:13:26]: Arm serial number: ? 
+[11/27/23 11:13:26]: EP: s6.8 Feb  3 2010
+[11/27/23 11:13:26]: SCA: s6.8 Feb  3 2010
+[11/27/23 11:13:26]: PLC: s6.8 Feb  3 2010
+[11/27/23 11:13:26]: New profile : default
+[11/27/23 11:13:26]: COM-PC: create session 127.0.0.1 on port 50504 id=#59492760
+[11/27/23 11:13:26]: Working mode:manual.
+[11/27/23 11:13:27]: End of arm power shutdown phase.
+[11/27/23 11:13:39]: Settling arm power...
+[11/27/23 11:13:39]: Arm power settled.
+[11/27/23 11:13:40]: Unknown event:motion generator activated
+[11/27/23 11:13:43]: AppTto application started
+[11/27/23 11:13:43]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/27/23 11:14:23]: MCP communication disconnected
+[11/27/23 11:14:23]: Arm power shutdown: working mode change.
+[11/27/23 11:14:23]: Arm power shutdown...
+[11/27/23 11:14:23]: Unknown event:motion generator desactivated
+[11/30/23 12:04:24]: -----------------------------------------------
+[11/30/23 12:04:24]: Logger started
+[11/30/23 12:04:28]: Unknown event:Communication established
+[11/30/23 12:04:28]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:04:28]: Cycle time set to 0.004s
+[11/30/23 12:04:28]: Simulation cycle time set to 0.1s
+[11/30/23 12:04:28]: Controller IP address could not be updated
+[11/30/23 12:04:28]: STARC : No STARC board detected on PCI.
+[11/30/23 12:04:28]: Mcp = TSimulated
+[11/30/23 12:04:28]: Power shutdown delay set to 0 s
+[11/30/23 12:04:28]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:04:28]: Power hour count = 0:16:10
+[11/30/23 12:04:28]: Mac Address = 84-fd-d1-6c-63-ad
+[11/30/23 12:04:28]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:04:28]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:04:28]: Option testMode: demo 
+[11/30/23 12:04:28]: Configuration Version: D24266415A 
+[11/30/23 12:04:28]: Machine Number: ? 
+[11/30/23 12:04:28]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:04:28]: Arm serial number: ? 
+[11/30/23 12:04:28]: EP: s6.8 Feb  3 2010
+[11/30/23 12:04:28]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:04:28]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:04:29]: New profile : default
+[11/30/23 12:04:29]: COM-PC: create session 127.0.0.1 on port 61546 id=#53988672
+[11/30/23 12:04:29]: Working mode:manual.
+[11/30/23 12:04:29]: End of arm power shutdown phase.
+[11/30/23 12:04:39]: Settling arm power...
+[11/30/23 12:04:39]: Arm power settled.
+[11/30/23 12:04:40]: Unknown event:motion generator activated
+[11/30/23 12:04:44]: AppTto application started
+[11/30/23 12:04:44]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:05:01]: MCP communication disconnected
+[11/30/23 12:05:01]: Arm power shutdown: working mode change.
+[11/30/23 12:05:01]: Arm power shutdown...
+[11/30/23 12:05:01]: Unknown event:motion generator desactivated
+[11/30/23 12:05:02]: End of arm power shutdown phase.
+[11/30/23 12:05:03]: Saving controller context...
+[11/30/23 12:05:03]: Controller temperature: 28°C
+[11/30/23 12:05:03]: CPU temperature: 28°C
+[11/30/23 12:58:51]: -----------------------------------------------
+[11/30/23 12:58:51]: Logger started
+[11/30/23 12:58:56]: Unknown event:Communication established
+[11/30/23 12:58:56]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:58:56]: Cycle time set to 0.004s
+[11/30/23 12:58:56]: Simulation cycle time set to 0.1s
+[11/30/23 12:58:56]: Controller IP address could not be updated
+[11/30/23 12:58:56]: STARC : No STARC board detected on PCI.
+[11/30/23 12:58:56]: Mcp = TSimulated
+[11/30/23 12:58:56]: Power shutdown delay set to 0 s
+[11/30/23 12:58:56]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:58:56]: Power hour count = 0:16:29
+[11/30/23 12:58:56]: Mac Address = 84-fd-d1-6c-63-ad
+[11/30/23 12:58:56]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:58:56]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:58:56]: Option testMode: demo 
+[11/30/23 12:58:56]: Configuration Version: D24266415A 
+[11/30/23 12:58:56]: Machine Number: ? 
+[11/30/23 12:58:56]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:58:56]: Arm serial number: ? 
+[11/30/23 12:58:56]: EP: s6.8 Feb  3 2010
+[11/30/23 12:58:56]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:58:56]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:58:56]: New profile : default
+[11/30/23 12:58:56]: Working mode:manual.
+[11/30/23 12:58:57]: End of arm power shutdown phase.
+[11/30/23 12:59:00]: COM-PC: create session 127.0.0.1 on port 62686 id=#60521072
+[11/30/23 12:59:05]: Settling arm power...
+[11/30/23 12:59:05]: Arm power settled.
+[11/30/23 12:59:05]: Unknown event:motion generator activated
+[11/30/23 12:59:08]: Unknown event:motion generator desactivated
+[11/30/23 12:59:08]: Arm power shutdown...
+[11/30/23 12:59:09]: End of arm power shutdown phase.
+[11/30/23 12:59:11]: Saving controller context...
+[11/30/23 12:59:11]: Controller temperature: 28°C
+[11/30/23 12:59:11]: CPU temperature: 28°C
+[11/30/23 12:59:15]: Settling arm power...
+[11/30/23 12:59:15]: Arm power settled.
+[11/30/23 12:59:15]: Unknown event:motion generator activated
+[11/30/23 12:59:20]: AppTto application started
+[11/30/23 12:59:20]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 13:00:00]: MCP communication disconnected
+[11/30/23 13:00:00]: Arm power shutdown: working mode change.
+[11/30/23 13:00:00]: Arm power shutdown...
+[11/30/23 13:00:00]: Unknown event:motion generator desactivated
+[11/30/23 13:00:02]: End of arm power shutdown phase.
+[11/30/23 12:05:23]: -----------------------------------------------
+[11/30/23 12:05:23]: Logger started
+[11/30/23 12:05:27]: Unknown event:Communication established
+[11/30/23 12:05:27]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:05:27]: Cycle time set to 0.004s
+[11/30/23 12:05:27]: Simulation cycle time set to 0.1s
+[11/30/23 12:05:27]: Controller IP address could not be updated
+[11/30/23 12:05:27]: STARC : No STARC board detected on PCI.
+[11/30/23 12:05:27]: Mcp = TSimulated
+[11/30/23 12:05:27]: Power shutdown delay set to 0 s
+[11/30/23 12:05:27]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:05:27]: Power hour count = 0:00:00
+[11/30/23 12:05:27]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:05:27]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:05:27]: Working mode:invalid.
+[11/30/23 12:05:27]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:05:27]: Option testMode: demo 
+[11/30/23 12:05:27]: Configuration Version: D24266415A 
+[11/30/23 12:05:27]: Machine Number: ? 
+[11/30/23 12:05:27]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:05:27]: Arm serial number: ? 
+[11/30/23 12:05:27]: EP: s6.8 Feb  3 2010
+[11/30/23 12:05:27]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:05:27]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:05:27]: New profile : default
+[11/30/23 12:05:28]: Working mode:manual.
+[11/30/23 12:05:28]: COM-PC: create session 127.0.0.1 on port 56848 id=#59855640
+[11/30/23 12:05:28]: End of arm power shutdown phase.
+[11/30/23 12:05:43]: Settling arm power...
+[11/30/23 12:05:43]: Arm power settled.
+[11/30/23 12:05:44]: Arm power shutdown...
+[11/30/23 12:05:45]: End of arm power shutdown phase.
+[11/30/23 12:05:46]: AppTto application started
+[11/30/23 12:05:46]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:05:47]: Jog mode cannot be selected: first enable arm power.
+[11/30/23 12:05:47]: Jog mode cannot be selected: first enable arm power. (1)
+[11/30/23 12:05:55]: Settling arm power...
+[11/30/23 12:05:56]: Arm power settled.
+[11/30/23 12:05:56]: Unknown event:motion generator activated
+[11/30/23 12:06:29]: -----------------------------------------------
+[11/30/23 12:06:29]: Logger started
+[11/30/23 12:06:33]: Unknown event:Communication established
+[11/30/23 12:06:33]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:06:33]: Cycle time set to 0.004s
+[11/30/23 12:06:33]: Simulation cycle time set to 0.1s
+[11/30/23 12:06:33]: Controller IP address could not be updated
+[11/30/23 12:06:33]: STARC : No STARC board detected on PCI.
+[11/30/23 12:06:33]: Mcp = TSimulated
+[11/30/23 12:06:33]: Power shutdown delay set to 0 s
+[11/30/23 12:06:33]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:06:33]: Power hour count = 0:00:00
+[11/30/23 12:06:33]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:06:33]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:06:33]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:06:33]: Option testMode: demo 
+[11/30/23 12:06:33]: Configuration Version: D24266415A 
+[11/30/23 12:06:33]: Machine Number: ? 
+[11/30/23 12:06:33]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:06:33]: Arm serial number: ? 
+[11/30/23 12:06:33]: EP: s6.8 Feb  3 2010
+[11/30/23 12:06:33]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:06:33]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:06:33]: New profile : default
+[11/30/23 12:06:34]: Working mode:manual.
+[11/30/23 12:06:34]: End of arm power shutdown phase.
+[11/30/23 12:06:41]: COM-PC: create session 127.0.0.1 on port 56872 id=#58471912
+[11/30/23 12:06:46]: Settling arm power...
+[11/30/23 12:06:47]: Arm power settled.
+[11/30/23 12:06:47]: Unknown event:motion generator activated
+[11/30/23 12:06:50]: AppTto application started
+[11/30/23 12:06:50]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:07:04]: Unknown event:motion generator desactivated
+[11/30/23 12:07:04]: Arm power shutdown...
+[11/30/23 12:07:05]: End of arm power shutdown phase.
+[11/30/23 12:07:08]: Saving controller context...
+[11/30/23 12:07:08]: Controller temperature: 28°C
+[11/30/23 12:07:08]: CPU temperature: 28°C
+[11/30/23 12:07:17]: Jog mode cannot be selected: first enable arm power.
+[11/30/23 12:07:17]: Jog mode cannot be selected: first enable arm power. (2)
+[11/30/23 12:07:19]: Settling arm power...
+[11/30/23 12:07:20]: Arm power settled.
+[11/30/23 12:07:20]: Unknown event:motion generator activated
+[11/30/23 12:07:35]: -----------------------------------------------
+[11/30/23 12:07:35]: Logger started
+[11/30/23 12:07:39]: Unknown event:Communication established
+[11/30/23 12:07:39]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:07:39]: Cycle time set to 0.004s
+[11/30/23 12:07:39]: Simulation cycle time set to 0.1s
+[11/30/23 12:07:39]: Controller IP address could not be updated
+[11/30/23 12:07:39]: STARC : No STARC board detected on PCI.
+[11/30/23 12:07:39]: Mcp = TSimulated
+[11/30/23 12:07:39]: Power shutdown delay set to 0 s
+[11/30/23 12:07:39]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:07:39]: Power hour count = 0:00:00
+[11/30/23 12:07:39]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:07:39]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:07:39]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:07:39]: Option testMode: demo 
+[11/30/23 12:07:39]: Configuration Version: D24266415A 
+[11/30/23 12:07:39]: Machine Number: ? 
+[11/30/23 12:07:39]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:07:39]: Arm serial number: ? 
+[11/30/23 12:07:39]: EP: s6.8 Feb  3 2010
+[11/30/23 12:07:39]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:07:39]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:07:39]: New profile : default
+[11/30/23 12:07:40]: Working mode:manual.
+[11/30/23 12:07:40]: End of arm power shutdown phase.
+[11/30/23 12:07:42]: Settling arm power...
+[11/30/23 12:07:43]: Arm power settled.
+[11/30/23 12:07:43]: Unknown event:motion generator activated
+[11/30/23 12:07:50]: COM-PC: create session 127.0.0.1 on port 56881 id=#58667288
+[11/30/23 12:07:55]: AppTto application started
+[11/30/23 12:07:55]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:08:35]: -----------------------------------------------
+[11/30/23 12:08:35]: Logger started
+[11/30/23 12:08:39]: Unknown event:Communication established
+[11/30/23 12:08:39]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:08:39]: Cycle time set to 0.004s
+[11/30/23 12:08:39]: Simulation cycle time set to 0.1s
+[11/30/23 12:08:39]: Controller IP address could not be updated
+[11/30/23 12:08:39]: STARC : No STARC board detected on PCI.
+[11/30/23 12:08:39]: Mcp = TSimulated
+[11/30/23 12:08:39]: Power shutdown delay set to 0 s
+[11/30/23 12:08:39]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:08:39]: Power hour count = 0:00:00
+[11/30/23 12:08:39]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:08:39]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:08:39]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:08:39]: Option testMode: demo 
+[11/30/23 12:08:39]: Configuration Version: D24266415A 
+[11/30/23 12:08:39]: Machine Number: ? 
+[11/30/23 12:08:39]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:08:39]: Arm serial number: ? 
+[11/30/23 12:08:39]: EP: s6.8 Feb  3 2010
+[11/30/23 12:08:39]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:08:39]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:08:39]: New profile : default
+[11/30/23 12:08:40]: Working mode:manual.
+[11/30/23 12:08:40]: End of arm power shutdown phase.
+[11/30/23 12:08:59]: COM-PC: create session 127.0.0.1 on port 56891 id=#59219168
+[11/30/23 12:09:05]: AppTto application started
+[11/30/23 12:09:05]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:09:08]: Settling arm power...
+[11/30/23 12:09:08]: Arm power settled.
+[11/30/23 12:09:09]: Unknown event:motion generator activated
+[11/30/23 12:09:12]: Arm power shutdown: working mode change.
+[11/30/23 12:09:12]: Arm power shutdown...
+[11/30/23 12:09:12]: Unknown event:motion generator desactivated
+[11/30/23 12:09:13]: Working mode:test.
+[11/30/23 12:09:13]: End of arm power shutdown phase.
+[11/30/23 12:09:14]: Saving controller context...
+[11/30/23 12:09:14]: Controller temperature: 28°C
+[11/30/23 12:09:14]: CPU temperature: 28°C
+[11/30/23 12:09:14]: Working mode:remote.
+[11/30/23 12:09:16]: Working mode:automatic.
+[11/30/23 12:09:19]: Saving controller context...
+[11/30/23 12:09:34]: AppTto application stopped
+[11/30/23 12:09:39]: AppTto application started
+[11/30/23 12:09:39]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:09:46]: Settling arm power...
+[11/30/23 12:09:46]: Arm power settled.
+[11/30/23 12:09:47]: Unknown event:motion generator activated
+[11/30/23 12:11:47]: -----------------------------------------------
+[11/30/23 12:11:47]: Logger started
+[11/30/23 12:11:51]: Unknown event:Communication established
+[11/30/23 12:11:51]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:11:51]: Cycle time set to 0.004s
+[11/30/23 12:11:51]: Simulation cycle time set to 0.1s
+[11/30/23 12:11:51]: Controller IP address could not be updated
+[11/30/23 12:11:51]: STARC : No STARC board detected on PCI.
+[11/30/23 12:11:51]: Mcp = TSimulated
+[11/30/23 12:11:51]: Power shutdown delay set to 0 s
+[11/30/23 12:11:51]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:11:51]: Power hour count = 0:00:00
+[11/30/23 12:11:51]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:11:51]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:11:51]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:11:51]: Option testMode: demo 
+[11/30/23 12:11:51]: Configuration Version: D24266415A 
+[11/30/23 12:11:51]: Machine Number: ? 
+[11/30/23 12:11:51]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:11:51]: Arm serial number: ? 
+[11/30/23 12:11:51]: EP: s6.8 Feb  3 2010
+[11/30/23 12:11:51]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:11:51]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:11:51]: New profile : default
+[11/30/23 12:11:52]: Working mode:automatic.
+[11/30/23 12:11:52]: End of arm power shutdown phase.
+[11/30/23 12:11:55]: Working mode:manual.
+[11/30/23 12:11:59]: Saving controller context...
+[11/30/23 12:11:59]: Controller temperature: 28°C
+[11/30/23 12:11:59]: CPU temperature: 28°C
+[11/30/23 12:12:09]: COM-PC: create session 127.0.0.1 on port 59162 id=#59195664
+[11/30/23 12:12:14]: Settling arm power...
+[11/30/23 12:12:14]: Arm power settled.
+[11/30/23 12:12:15]: Unknown event:motion generator activated
+[11/30/23 12:12:17]: AppTto application started
+[11/30/23 12:12:17]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:14:01]: -----------------------------------------------
+[11/30/23 12:14:01]: Logger started
+[11/30/23 12:14:05]: Unknown event:Communication established
+[11/30/23 12:14:05]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:14:05]: Cycle time set to 0.004s
+[11/30/23 12:14:05]: Simulation cycle time set to 0.1s
+[11/30/23 12:14:05]: Controller IP address could not be updated
+[11/30/23 12:14:05]: STARC : No STARC board detected on PCI.
+[11/30/23 12:14:05]: Mcp = TSimulated
+[11/30/23 12:14:05]: Power shutdown delay set to 0 s
+[11/30/23 12:14:05]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:14:05]: Power hour count = 0:00:00
+[11/30/23 12:14:05]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:14:05]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:14:05]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:14:05]: Option testMode: demo 
+[11/30/23 12:14:05]: Configuration Version: D24266415A 
+[11/30/23 12:14:05]: Machine Number: ? 
+[11/30/23 12:14:05]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:14:05]: Arm serial number: ? 
+[11/30/23 12:14:05]: EP: s6.8 Feb  3 2010
+[11/30/23 12:14:05]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:14:05]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:14:05]: New profile : default
+[11/30/23 12:14:05]: Working mode:manual.
+[11/30/23 12:14:06]: End of arm power shutdown phase.
+[11/30/23 12:14:23]: COM-PC: create session 127.0.0.1 on port 59178 id=#58487984
+[11/30/23 12:14:27]: Settling arm power...
+[11/30/23 12:14:27]: Arm power settled.
+[11/30/23 12:14:28]: Unknown event:motion generator activated
+[11/30/23 12:14:31]: AppTto application started
+[11/30/23 12:14:31]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:15:20]: AppTto application stopped
+[11/30/23 12:16:31]: -----------------------------------------------
+[11/30/23 12:16:31]: Logger started
+[11/30/23 12:16:35]: Unknown event:Communication established
+[11/30/23 12:16:35]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/30/23 12:16:35]: Cycle time set to 0.004s
+[11/30/23 12:16:35]: Simulation cycle time set to 0.1s
+[11/30/23 12:16:35]: Controller IP address could not be updated
+[11/30/23 12:16:35]: STARC : No STARC board detected on PCI.
+[11/30/23 12:16:35]: Mcp = TSimulated
+[11/30/23 12:16:35]: Power shutdown delay set to 0 s
+[11/30/23 12:16:35]: Gravity (x y z): 0         0        -9.81
+[11/30/23 12:16:35]: Power hour count = 0:00:00
+[11/30/23 12:16:35]: Mac Address = fc-34-97-b5-ab-93
+[11/30/23 12:16:35]: COM-PC: server created on all interfaces [5653]
+[11/30/23 12:16:35]: VAL3: s6.8 Feb  9 2010
+[11/30/23 12:16:35]: Option testMode: demo 
+[11/30/23 12:16:35]: Configuration Version: D24266415A 
+[11/30/23 12:16:35]: Machine Number: ? 
+[11/30/23 12:16:35]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/30/23 12:16:35]: Arm serial number: ? 
+[11/30/23 12:16:35]: EP: s6.8 Feb  3 2010
+[11/30/23 12:16:35]: SCA: s6.8 Feb  3 2010
+[11/30/23 12:16:35]: PLC: s6.8 Feb  3 2010
+[11/30/23 12:16:35]: New profile : default
+[11/30/23 12:16:35]: COM-PC: create session 127.0.0.1 on port 59202 id=#59448728
+[11/30/23 12:16:36]: Working mode:manual.
+[11/30/23 12:16:36]: End of arm power shutdown phase.
+[11/30/23 12:16:55]: Settling arm power...
+[11/30/23 12:16:55]: Arm power shutdown...
+[11/30/23 12:16:55]: Cannot apply arm power: press the deadman switch or park the pendant on the cradle.
+[11/30/23 12:16:56]: End of arm power shutdown phase.
+[11/30/23 12:17:08]: Settling arm power...
+[11/30/23 12:17:09]: Arm power settled.
+[11/30/23 12:17:09]: Unknown event:motion generator activated
+[11/30/23 12:17:14]: AppTto application started
+[11/30/23 12:17:14]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/30/23 12:17:22]: MCP communication disconnected
+[12/04/23 08:15:01]: -----------------------------------------------
+[12/04/23 08:15:01]: Logger started
+[12/04/23 08:15:05]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/04/23 08:15:05]: Cycle time set to 0.004s
+[12/04/23 08:15:05]: Simulation cycle time set to 0.1s
+[12/04/23 08:15:05]: Controller IP address could not be updated
+[12/04/23 08:15:05]: STARC : No STARC board detected on PCI.
+[12/04/23 08:15:05]: Power shutdown delay set to 0 s
+[12/04/23 08:15:05]: Gravity (x y z): 0         0        -9.81
+[12/04/23 08:15:05]: Power hour count = 0:16:32
+[12/04/23 08:15:05]: Mac Address = 84-fd-d1-6c-63-ad
+[12/04/23 08:15:05]: Mcp = TSimulated
+[12/04/23 08:15:05]: COM-PC: server created on all interfaces [5653]
+[12/04/23 08:15:05]: VAL3: s6.8 Feb  9 2010
+[12/04/23 08:15:05]: Option testMode: demo 
+[12/04/23 08:15:05]: Configuration Version: D24266415A 
+[12/04/23 08:15:05]: Machine Number: ? 
+[12/04/23 08:15:05]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[12/04/23 08:15:05]: Arm serial number: ? 
+[12/04/23 08:15:05]: EP: s6.8 Feb  3 2010
+[12/04/23 08:15:05]: SCA: s6.8 Feb  3 2010
+[12/04/23 08:15:05]: PLC: s6.8 Feb  3 2010
+[12/04/23 08:15:05]: New profile : default
+[12/04/23 08:15:06]: COM-PC: create session 127.0.0.1 on port 57575 id=#62262400
+[12/04/23 08:15:06]: End of arm power shutdown phase.
+[12/04/23 08:15:07]: Unknown event:Communication established
+[12/04/23 08:15:07]: MCP communication disconnected
+[12/04/23 08:25:21]: -----------------------------------------------
+[12/04/23 08:25:21]: Logger started
+[12/04/23 08:25:25]: Unknown event:Communication established
+[12/04/23 08:25:25]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/04/23 08:25:25]: Cycle time set to 0.004s
+[12/04/23 08:25:25]: Simulation cycle time set to 0.1s
+[12/04/23 08:25:25]: Controller IP address could not be updated
+[12/04/23 08:25:25]: STARC : No STARC board detected on PCI.
+[12/04/23 08:25:25]: Mcp = TSimulated
+[12/04/23 08:25:25]: Power shutdown delay set to 0 s
+[12/04/23 08:25:25]: Gravity (x y z): 0         0        -9.81
+[12/04/23 08:25:25]: Power hour count = 0:16:32
+[12/04/23 08:25:25]: Mac Address = 84-fd-d1-6c-63-ad
+[12/04/23 08:25:25]: COM-PC: server created on all interfaces [5653]
+[12/04/23 08:25:25]: VAL3: s6.8 Feb  9 2010
+[12/04/23 08:25:25]: Option testMode: demo 
+[12/04/23 08:25:25]: Configuration Version: D24266415A 
+[12/04/23 08:25:25]: Machine Number: ? 
+[12/04/23 08:25:25]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[12/04/23 08:25:25]: Arm serial number: ? 
+[12/04/23 08:25:25]: EP: s6.8 Feb  3 2010
+[12/04/23 08:25:25]: SCA: s6.8 Feb  3 2010
+[12/04/23 08:25:25]: PLC: s6.8 Feb  3 2010
+[12/04/23 08:25:25]: New profile : default
+[12/04/23 08:25:26]: Working mode:manual.
+[12/04/23 08:25:26]: End of arm power shutdown phase.
+[12/04/23 08:25:36]: COM-PC: create session 127.0.0.1 on port 57873 id=#62920464
+[12/04/23 08:25:41]: Settling arm power...
+[12/04/23 08:25:41]: Arm power settled.
+[12/04/23 08:25:42]: Unknown event:motion generator activated
+[12/04/23 08:25:46]: AppTto application started
+[12/04/23 08:25:46]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[12/04/23 08:26:55]: AppTto application stopped
+[12/04/23 08:27:03]: MCP communication disconnected
+[12/04/23 08:27:03]: Arm power shutdown: working mode change.
+[12/04/23 08:27:03]: Arm power shutdown...
+[12/04/23 08:27:03]: Unknown event:motion generator desactivated

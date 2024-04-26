@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  
+  userPage()
+  cls()
+  enablePower()
+  
+  dioLink(trolley, io:bOut2)
+  dioLink(classActuator1, io:bOut3)
+  dioLink(classActuator2, io:bOut4) 
+  dioLink(inductive, io:bIn2) 
+  dioLink(presence3, io:bIn4)
+  dioLink(presence2, io:bIn1)
+  dioLink(barrier, io:bOut5)
+  
+  parts=0
+  dioSet(barrier,0)
+  while parts&lt;8
+    if parts==0
+      dioSet(trolley,1)
+    endIf
+    wait(presence2==true)
+    if(inductive==true)
+      dioSet(classActuator1,0)
+      delay(0.2)
+      dioSet(classActuator2,1)
+    else
+      dioSet(classActuator2,0)
+      delay(0.2)
+      dioSet(classActuator1,1)
+    endIf
+    delay(7.3)
+    dioSet(barrier,1)
+    delay(0.35)
+    dioSet(barrier,0)
+    
+    wait(presence3==true)
+    parts=parts+1
+  endWhile
+  dioSet(barrier,0)
+  dioSet(trolley,0)
+  dioSet(classActuator1,0)
+  dioSet(classActuator2,0)
+  putln("classification completed")
+  
+  //pick and place starts here
+  //suction linking
+  dioLink(vacuum,io:bOut0)
+  //blow linking
+  dioLink(blow,io:bOut1)
+  mNomSpeed.vel=30
+  putln("Move cylinder to pallet")
+  for i=0 to 1 step 1
+    for j=0 to 3 step 1
+      //suction = OFF blow = OFF.
+      dioSet(vacuum,0)
+      dioSet(blow,0)
+      putln("Move to the ramp")
+
+      movej(appro(pPick[i], tShift[0]), tool0[0], mNomSpeed)
+      waitEndMove()
+      movel(pPick[i], tool0[0], mNomSpeed)
+      waitEndMove()
+      //suction = ON blow = OFF.
+      dioSet(vacuum,1)
+      delay(2)
+      dioSet(blow,0)
+      putln("Picked a cylinder")
+      movel(appro(pPick[i], tShift[0]),tool0[0],mNomSpeed)
+      putln("Moving towards the pallet")
+      waitEndMove()
+      
+      if i == 0
+        movej(appro(pPlacem[j], tShift[0]),tool0[0],mNomSpeed)
+        movel(pPlacem[j], tool0[0], mNomSpeed)
+        waitEndMove()
+        //suction = OFF blow = ON
+        dioSet(vacuum, 0)
+        dioSet(blow, 1)
+        putln("Placed a cylinder")
+        waitEndMove()
+        movel(appro(pPlacem[j], tShift[0]),tool0[0],mNomSpeed)
+      elseIf i == 1
+        movej(appro(pPlacenm[j], tShift[0]),tool0[0],mNomSpeed)
+        movel(pPlacenm[j], tool0[0], mNomSpeed)
+        waitEndMove()
+        //suction = OFF blow = ON
+        dioSet(vacuum, 0)
+        dioSet(blow, 1)
+        putln("Placed a cylinder")
+        waitEndMove()
+        movel(appro(pPlacenm[j], tShift[0]),tool0[0],mNomSpeed)
+      endIf
+    endFor
+  endFor
+end</code>
+    </source>
+  </program>
+</programList>
