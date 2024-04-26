@@ -1,0 +1,37 @@
+ Program
+   Robot Program
+     Home
+     Set DO[2]=Off
+     Set DO[1]=On
+     Pallet_1
+       Patterns
+         Irreg_Pattern_1
+           Item_1
+           Item_2
+           Item_3
+           Item_4
+           Item_5
+       Layers
+       At Each Item
+         Generated Movements
+           MoveJ
+             Approach
+           MoveL
+             ToolActionPoint
+           Tool action
+             Vacuum Grip  (1)           
+             Wait: 0.5
+             Grip Check
+               If object not detected          
+                 Set Pallet_1_cnt_1=Pallet_1_cnt_1+1
+                 Set DO[2]=On
+           MoveL
+             Exit_1
+         MoveJ
+           dropPointAppr
+         MoveL
+           Direction: Base Z-
+             Until (tool_contact_detection)
+               Vacuum Release  (1)           
+         MoveJ
+           dropPointAppr
