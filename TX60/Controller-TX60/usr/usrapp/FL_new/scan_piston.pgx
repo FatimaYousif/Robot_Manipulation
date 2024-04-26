@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="scan_piston" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  slow.vel=10
+  mNomSpeed.vel = 30
+  
+  for i = 0 to 4 
+    //move to despender
+    movej(appro(poseDispense, cylinder_offset), cGripper, mNomSpeed)
+    waitEndMove()
+    movel(poseDispense, cGripper, slow)
+    waitEndMove()
+    
+    //grap the cylinder
+    close(cGripper)
+    waitEndMove()
+    //move up
+    movej(appro(poseDispense, cylinder_offset), cGripper, mNomSpeed)
+    waitEndMove()
+    
+    //move to the assembly station
+    movej(appro(poseAssembly, cylinder_offset), cGripper, mNomSpeed)
+    waitEndMove()
+    
+    movel(poseAssembly, cGripper, slow)
+    waitEndMove()
+    //place the cylinder
+    open(cGripper)
+    waitEndMove()
+    
+    //move to safe position before going to the piston after placing cylinder
+    movel(appro(poseAssembly, cylinder_offset), cGripper, mNomSpeed)
+    waitEndMove()
+    
+    pis_grid = compose(posePiston[0], world, {0, -i*30, 0, 0, 0, 0}) 
+    //scan piston
+    movej(appro(pis_grid[0], pis_offset[0] ), pGripper, slow)
+    waitEndMove()
+    
+    //pick piston
+    movej(pis_grid[0], pGripper, slow)
+    waitEndMove()
+    close(pGripper)
+    waitEndMove()
+    
+    //move to the assembly station
+    movej(appro(poseAssembly, cylinder_offset[0]), pGripper, mNomSpeed)
+    waitEndMove()
+    movel(poseAssembly, pGripper, slow)
+    waitEndMove()
+    //place
+    open(pGripper)
+    waitEndMove()
+    
+    //go the safe position to change tool
+    movel(appro(poseAssembly, cylinder_offset), pGripper, mNomSpeed)
+    waitEndMove()
+    
+    //to assembly station to pick a cylinder 
+    movel(poseAssembly, cGripper, slow)
+    waitEndMove()
+    
+    //grap the cylinder
+    close(cGripper)
+    waitEndMove()
+    
+    //move to safe area before moving to the matrix
+    movel(appro(poseAssembly, cylinder_offset), cGripper, slow)
+    waitEndMove()
+    
+    //move to the matrix
+    movej(appro(poseAssemMatrix[1], cylinder_offset), cGripper, mNomSpeed)
+    waitEndMove()
+    
+    //place cylinder on the matrix
+    movel(poseAssemMatrix[1], cGripper, slow)
+    waitEndMove()
+    open(cGripper)
+    waitEndMove()
+   
+  endFor
+end
+</code>
+    </source>
+  </program>
+</programList>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  userPage()
+  cls()
+  enablePower()
+  
+  slow.vel= 20
+  mNomSpeed.vel = 30
+  dioLink(dispenser, io:bOut10)
+  dioLink(gripper, io:bOut0)
+  
+  dioLink(cylinderPresenc, io:bIn2)
+  dioLink(pistonPresenc, io:bIn0)
+
+  for i = 0 to 3
+    if(pistonPresenc == false)
+      dioSet(dispenser, 1)
+      dioSet(dispenser, 0)
+    endIf
+    movej(appro(poseDispense, cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+    movel(poseDispense, cGripper, slow)
+    waitEndMove()
+  
+    //grap cylinder
+    close(cGripper)
+    waitEndMove()
+
+    movel(appro(poseDispense, cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+  
+    //go to the assembly station
+    movej(appro(poseAssembly, cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+    
+    movel(poseAssembly, cGripper, slow)
+    waitEndMove()
+
+    //place the cylinder
+    open(cGripper)
+    waitEndMove()
+  
+    movel(appro(poseAssembly, cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+  
+    
+    putln("going to safe pose")
+    movej(pSafe, pGripper, mNomSpeed)
+    waitEndMove()
+  
+    //move to the scanning position with -100 appro
+    movej(appro(poseScan, pis_offset[0]), pGripper, mNomSpeed)
+    waitEndMove()
+  
+    pis_counter = 0
+    while dioGet(pistonPresenc) == 0
+      pis_grid[0] = compose(posePiston[0], world, {0, -pis_counter*25, 0, 0, 0, 0})
+      scan_grid[0] = compose(poseScan[0], world, {0, -pis_counter*25, 0, 0, 0, 0}) 
+      // go to the piston scanning
+      movel(scan_grid[0], pGripper, slow)
+      waitEndMove()
+      if(pis_counter &lt; 4)
+        pis_counter = pis_counter + 1
+      else 
+        pis_counter = 0
+      endIf
+    endWhile
+    //go straight up first for safety.
+    movel(appro(scan_grid[0], pis_offset[0] ), pGripper, slow)
+    waitEndMove()
+    
+    // move to the piston with z-offset of 100
+    movej(appro(pis_grid[0], pis_offset[0] ), pGripper, slow)
+    waitEndMove()
+    
+    movel(pis_grid[0], pGripper, slow)
+    waitEndMove()
+    
+    //grap the piston
+    close(pGripper)
+    waitEndMove()
+  
+    // move straight up
+    movel(appro(pis_grid[0], cylinder_offset[0] ), pGripper, slow)
+    waitEndMove()
+
+    //move the the assembly station with z-offset
+    movej(appro(pistonPlace[0], cylinder_offset[0]), pGripper, mNomSpeed)
+    waitEndMove()
+  
+    // move straight down to the assembly station
+    movel(pistonPlace[0], pGripper, slow)
+    waitEndMove()
+
+    //place piston
+    open(pGripper)
+    waitEndMove()
+  
+    //move straight up
+    movel(appro(poseAssembly, cylinder_offset[0]), pGripper, mNomSpeed)
+    waitEndMove()
+
+    putln("going to safe pose")
+    movej(pSafe, pGripper, mNomSpeed)
+    waitEndMove()
+    
+    // change tool and move straight down to pick cylinder
+    putln("going to the pose assembly")
+    movej(appro(poseAssembly, cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+    
+    movel(poseAssembly, cGripper, slow)
+    waitEndMove()
+    
+    //grap cylinder
+    close(cGripper)
+    waitEndMove()
+  
+    //move straight up to the z-offset
+    movel(appro(poseAssembly, cylinder_offset[0]), cGripper, slow)
+    waitEndMove()
+    
+    //move to the matrix
+    movej(appro(poseAssemMatrix[i], cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+  
+    //move to the the assembly matrix
+    movel(poseAssemMatrix[i], cGripper, mNomSpeed)
+    waitEndMove()
+  
+    // place the cylinder
+    open(cGripper)
+    waitEndMove()
+    
+    //move straight up -100 after placing cylinder in the matrix
+    movel(appro(poseAssemMatrix[i], cylinder_offset[0]), cGripper, mNomSpeed)
+    waitEndMove()
+ 
+  endFor
+end
+            </code>
+    </source>
+  </program>
+</programList>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataList xmlns="DataNameSpace">
+  <aioSection />
+  <boolSection />
+  <configRsSection />
+  <configSection />
+  <dioSection>
+    <dio size="1" name="dispenser" public="false" />
+    <dio size="1" name="gripper" public="false" />
+    <dio size="1" name="senseCylinder" public="false" />
+    <dio size="1" name="sensePiston" public="false" />
+  </dioSection>
+  <frameSection>
+    <frame name="world" public="false">
+      <fFather alias="" name="" fatherIndex="0" />
+      <valueFrame index="0">
+        <tfValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+      </valueFrame>
+    </frame>
+  </frameSection>
+  <jointRsSection />
+  <jointSection>
+    <joint name="safePosition" public="false">
+      <valueJoint index="0">
+        <jointValue j1="0" j2="0" j3="0" j4="0" j5="0" j6="0" />
+      </valueJoint>
+    </joint>
+  </jointSection>
+  <mdescSection>
+    <mdesc name="normalSpeed" public="true">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="joint" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+    <mdesc name="slowSpeed" public="false">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="off" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+  </mdescSection>
+  <numSection>
+    <num name="nPiston" public="false">
+      <valueNum value="0" index="0" />
+    </num>
+    <num name="i" public="false">
+      <valueNum value="0" index="0" />
+    </num>
+  </numSection>
+  <pointRsSection />
+  <pointSection>
+    <point name="pDispenser" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="366.4" y="-368" z="-352.75" rx="-180" ry="0" rz="90" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="1">
+        <tpValue x="369.893415" y="-380.566829" z="-342.75" rx="90" ry="0" rz="-90" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="pAssembly" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="561.758" y="94.85" z="-358" rx="-180" ry="0" rz="0" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+    </point>
+    <point name="pPiston" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="406.33" y="212.54" z="-380.9" rx="0" ry="180" rz="0" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="pAssemblyMatrix" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="634.36" y="-204.24" z="-358.13" rx="-180" ry="3" rz="40.5" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="1">
+        <tpValue x="591.28" y="-254.53" z="-359" rx="-180" ry="3" rz="40.5" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="2">
+        <tpValue x="635.53" y="-292.45" z="-358.6" rx="-180" ry="3" rz="40.5" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="3">
+        <tpValue x="678.5" y="-242.37" z="-358" rx="-180" ry="3" rz="40.5" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+    </point>
+    <point name="gridPiston" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="406.33" y="212.54" z="-380.9" rx="0" ry="180" rz="0" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+    </point>
+    <point name="gridAssembly" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="ramp" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+      <valuePoint index="1">
+        <tpValue x="618.748389" y="122.820438" z="-188.218026" rx="90" ry="101.656011" rz="-90" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="pSafe" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="564.346537" y="-58.388549" z="-185.725295" rx="-179.999959" ry="7.361528" rz="-2.8E-05" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="pScan" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="442" y="224" z="-380" rx="0" ry="180" rz="90" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+    </point>
+    <point name="scanPiston" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="pistonPlace" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="561.758" y="94.85" z="-348" rx="-180" ry="0" rz="0" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+    </point>
+  </pointSection>
+  <sioSection />
+  <stringSection />
+  <toolSection>
+    <tool name="flange" public="false">
+      <tFather alias="" name="" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
+      </valueTool>
+    </tool>
+    <tool name="pGripper" public="false">
+      <tFather alias="" name="flange" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="-30" y="-30" z="175" rx="0" ry="0" rz="-134" />
+        <io alias="io" name="valve1" ioIndex="0" open="1" close="1" />
+      </valueTool>
+    </tool>
+    <tool name="cGripper" public="false">
+      <tFather alias="" name="flange" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="30" y="30" z="170" rx="-90" ry="44" rz="-90" />
+        <io alias="io" name="valve1" ioIndex="0" open="1" close="1" />
+      </valueTool>
+    </tool>
+  </toolSection>
+  <trsfSection>
+    <trsf name="pistonTshift" public="false">
+      <valueTrsf index="0">
+        <trsfValue x="0" y="0" z="-100" rx="0" ry="0" rz="0" />
+      </valueTrsf>
+    </trsf>
+    <trsf name="cylinderTShift" public="false">
+      <valueTrsf index="0">
+        <trsfValue x="0" y="0" z="-140" rx="0" ry="0" rz="0" />
+      </valueTrsf>
+    </trsf>
+  </trsfSection>
+</dataList>

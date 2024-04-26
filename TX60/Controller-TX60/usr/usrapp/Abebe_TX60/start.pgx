@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  userPage()
+  cls()
+  enablePower()
+  
+  slowSpeed.vel= 20
+  normalSpeed.vel = 30
+  
+  dioLink(dispenser, io:bOut10)
+  dioLink(gripper, io:bOut0)
+  dioLink(senseCylinder, io:bIn2)
+  dioLink(sensePiston, io:bIn0)
+  
+  //Initialization
+  dioSet(dispenser, 1)
+  open(cGripper)
+  open(pGripper)
+  
+
+  for i = 0 to 3
+    dioSet(dispenser, 1)
+    delay(1)
+    dioSet(dispenser, 0)
+    
+    
+    putln("Heading to dispenser")
+    movej(appro(pDispenser, cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+    movel(pDispenser, cGripper, slowSpeed)
+    waitEndMove()
+  
+    // grasping the cylinder
+    close(cGripper)
+    waitEndMove()
+
+    movel(appro(pDispenser, cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+  
+    // Heading to the assembly station
+    movej(appro(pAssembly, cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+    
+    movel(pistonPlace, cGripper, slowSpeed)
+    waitEndMove()
+
+    // placing the cylinder
+    open(cGripper)
+    waitEndMove()
+  
+    putln("Cylinder placed at assembly station")
+    movel(appro(pAssembly, cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+  
+    
+    movej(pSafe, pGripper, normalSpeed)
+    waitEndMove()
+  
+    // Heading to the scanning position
+    movej(appro(pScan, pistonTshift[0]), pGripper, normalSpeed)
+    waitEndMove()
+  
+    nPiston = 3
+    while dioGet(sensePiston) == 0
+      gridPiston[0] = compose(pPiston[0], world, {0, -nPiston*25, 0, 0, 0, 0})
+      scanPiston[0] = compose(pScan[0], world, {0, -nPiston*25, 0, 0, 0, 0}) 
+      // go to the piston scanning
+      movel(scanPiston[0], pGripper, slowSpeed)
+      waitEndMove()
+      if(nPiston &gt; 0)
+        nPiston = nPiston - 1
+      else 
+        nPiston = 3
+      endIf
+    endWhile
+    
+    movel(appro(scanPiston[0], pistonTshift[0] ), pGripper, slowSpeed)
+    waitEndMove()
+    
+    // Heading to the piston with offset
+    putln("Heading to pick piston")
+    movej(appro(gridPiston[0], pistonTshift[0] ), pGripper, slowSpeed)
+    waitEndMove()
+    
+    movel(gridPiston[0], pGripper, slowSpeed)
+    waitEndMove()
+    
+    // grasping the piston
+    close(pGripper)
+    waitEndMove()
+  
+    movel(appro(gridPiston[0], cylinderTShift[0] ), pGripper, slowSpeed)
+    waitEndMove()
+ 
+    putln("Taking piston to the cylinder for assembly")
+    // Heading to the assembly station
+    movej(appro(pistonPlace[0], cylinderTShift[0]), pGripper, normalSpeed)
+    waitEndMove()
+  
+    movel(pistonPlace[0], pGripper, slowSpeed)
+    waitEndMove()
+
+    // placing the piston
+    open(pGripper)
+    waitEndMove()
+  
+    movel(appro(pAssembly, cylinderTShift[0]), pGripper, normalSpeed)
+    waitEndMove()
+
+    movej(pSafe, pGripper, normalSpeed)
+    waitEndMove()
+    
+    // changing tool then picking the assembled parts
+    putln("Taking assembled parts to the matrix")
+    movej(appro(pAssembly, cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+    
+    movel(pAssembly, cGripper, slowSpeed)
+    waitEndMove()
+    
+    // grasping the assembled parts
+    close(cGripper)
+    waitEndMove()
+    movel(appro(pAssembly, cylinderTShift[0]), cGripper, slowSpeed)
+    waitEndMove()
+    
+    // Heading to the matrix
+    movej(appro(pAssemblyMatrix[i], cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+  
+    movel(pAssemblyMatrix[i], cGripper, normalSpeed)
+    waitEndMove()
+  
+    // placing the assembled parts
+    open(cGripper)
+    waitEndMove()
+    putln("Assembled parts are placed!")
+    
+    movel(appro(pAssemblyMatrix[i], cylinderTShift[0]), cGripper, normalSpeed)
+    waitEndMove()
+  endFor
+end
+            </code>
+    </source>
+  </program>
+</programList>

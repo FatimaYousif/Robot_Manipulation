@@ -1,0 +1,150 @@
+﻿[12/17/23 18:55:44]: -----------------------------------------------
+[12/17/23 18:55:44]: Logger started
+[12/17/23 18:55:48]: Unknown event:Communication established
+[12/17/23 18:55:48]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/17/23 18:55:48]: Cycle time set to 0.004s
+[12/17/23 18:55:48]: Simulation cycle time set to 0.1s
+[12/17/23 18:55:48]: Controller IP address could not be updated
+[12/17/23 18:55:48]: STARC : No STARC board detected on PCI.
+[12/17/23 18:55:48]: Mcp = TSimulated
+[12/17/23 18:55:48]: Power shutdown delay set to 0 s
+[12/17/23 18:55:48]: Power hour count = 0:20:46
+[12/17/23 18:55:48]: Mac Address = 84-fd-d1-6c-63-ad
+[12/17/23 18:55:48]: COM-PC: server created on all interfaces [5653]
+[12/17/23 18:55:48]: VAL3: s6.8 Feb  9 2010
+[12/17/23 18:55:48]: Option testMode: demo 
+[12/17/23 18:55:48]: Configuration Version: D24266415A 
+[12/17/23 18:55:48]: Machine Number: ? 
+[12/17/23 18:55:48]: Arm: tx60-S1-R3 floor
+[12/17/23 18:55:48]: Arm serial number: ? 
+[12/17/23 18:55:48]: EP: s6.8 Feb  3 2010
+[12/17/23 18:55:48]: SCA: s6.8 Feb  3 2010
+[12/17/23 18:55:48]: PLC: s6.8 Feb  3 2010
+[12/17/23 18:55:48]: New profile : default
+[12/17/23 18:55:48]: COM-PC: create session 127.0.0.1 on port 59716 id=#59722440
+[12/17/23 18:55:49]: Working mode:automatic.
+[12/17/23 18:55:49]: End of arm power shutdown phase.
+[12/17/23 18:56:08]: COM-PC: destroy session 127.0.0.1 on port 59716 id=#59722440
+[12/17/23 18:56:37]: Working mode:manual.
+[12/17/23 18:56:39]: Settling arm power...
+[12/17/23 18:56:40]: Arm power settled.
+[12/17/23 18:56:40]: Unknown event:motion generator activated
+[12/17/23 18:56:45]: Abebe_TX60 application started
+[12/17/23 18:56:45]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[12/17/23 19:01:48]: -----------------------------------------------
+[12/17/23 19:01:48]: Logger started
+[12/17/23 19:01:52]: Unknown event:Communication established
+[12/17/23 19:01:52]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/17/23 19:01:52]: Cycle time set to 0.004s
+[12/17/23 19:01:52]: Simulation cycle time set to 0.1s
+[12/17/23 19:01:52]: Controller IP address could not be updated
+[12/17/23 19:01:52]: STARC : No STARC board detected on PCI.
+[12/17/23 19:01:52]: Mcp = TSimulated
+[12/17/23 19:01:52]: Power shutdown delay set to 0 s
+[12/17/23 19:01:52]: Power hour count = 0:20:46
+[12/17/23 19:01:52]: Mac Address = 84-fd-d1-6c-63-ad
+[12/17/23 19:01:52]: COM-PC: server created on all interfaces [5653]
+[12/17/23 19:01:52]: VAL3: s6.8 Feb  9 2010
+[12/17/23 19:01:52]: Option testMode: demo 
+[12/17/23 19:01:52]: Configuration Version: D24266415A 
+[12/17/23 19:01:52]: Machine Number: ? 
+[12/17/23 19:01:52]: Arm: tx60-S1-R3 floor
+[12/17/23 19:01:52]: Arm serial number: ? 
+[12/17/23 19:01:52]: EP: s6.8 Feb  3 2010
+[12/17/23 19:01:52]: SCA: s6.8 Feb  3 2010
+[12/17/23 19:01:52]: PLC: s6.8 Feb  3 2010
+[12/17/23 19:01:52]: New profile : default
+[12/17/23 19:01:53]: Working mode:automatic.
+[12/17/23 19:01:53]: End of arm power shutdown phase.
+[12/17/23 19:02:02]: Working mode:manual.
+[12/17/23 19:02:06]: (File start.pgx-line 11) 'senseCylinder' : invalid name
+[12/17/23 19:02:06]: (File start.pgx-line 12) 'sensePiston' : invalid name
+[12/17/23 19:02:06]: (File start.pgx-line 52) 'sensePiston' : invalid name
+[12/17/23 19:02:06]: (File start.pgx-line 63) endWhile does not match while
+[12/17/23 19:02:07]: Saving controller context...
+[12/17/23 19:02:07]: Controller temperature: 28°C
+[12/17/23 19:02:07]: CPU temperature: 28°C
+[12/17/23 19:02:49]: COM-PC: create session 127.0.0.1 on port 59903 id=#59430168
+[12/17/23 19:02:54]: Cannot apply arm power: release & press deadman to enable arm power request.
+[12/17/23 19:03:05]: Settling arm power...
+[12/17/23 19:03:05]: Arm power settled.
+[12/17/23 19:03:06]: Unknown event:motion generator activated
+[12/17/23 19:03:10]: Abebe_TX60 application started
+[12/17/23 19:03:10]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[12/17/23 19:03:50]: Arm power shutdown: working mode change.
+[12/17/23 19:03:50]: Arm power shutdown...
+[12/17/23 19:03:50]: MCP communication disconnected
+[12/17/23 19:03:50]: Unknown event:motion generator desactivated
+[12/17/23 19:50:44]: -----------------------------------------------
+[12/17/23 19:50:44]: Logger started
+[12/17/23 19:50:48]: Unknown event:Communication established
+[12/17/23 19:50:48]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/17/23 19:50:48]: Cycle time set to 0.004s
+[12/17/23 19:50:48]: Simulation cycle time set to 0.1s
+[12/17/23 19:50:48]: Controller IP address could not be updated
+[12/17/23 19:50:48]: STARC : No STARC board detected on PCI.
+[12/17/23 19:50:48]: Mcp = TSimulated
+[12/17/23 19:50:48]: Power shutdown delay set to 0 s
+[12/17/23 19:50:48]: Power hour count = 0:20:46
+[12/17/23 19:50:48]: Mac Address = 84-fd-d1-6c-63-ad
+[12/17/23 19:50:48]: COM-PC: server created on all interfaces [5653]
+[12/17/23 19:50:48]: VAL3: s6.8 Feb  9 2010
+[12/17/23 19:50:48]: Option testMode: demo 
+[12/17/23 19:50:48]: Configuration Version: D24266415A 
+[12/17/23 19:50:48]: Machine Number: ? 
+[12/17/23 19:50:48]: Arm: tx60-S1-R3 floor
+[12/17/23 19:50:48]: Arm serial number: ? 
+[12/17/23 19:50:48]: EP: s6.8 Feb  3 2010
+[12/17/23 19:50:48]: SCA: s6.8 Feb  3 2010
+[12/17/23 19:50:48]: PLC: s6.8 Feb  3 2010
+[12/17/23 19:50:48]: New profile : default
+[12/17/23 19:50:49]: COM-PC: create session 127.0.0.1 on port 61197 id=#59682408
+[12/17/23 19:50:49]: Working mode:manual.
+[12/17/23 19:50:49]: End of arm power shutdown phase.
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 2) 'slow' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 3) 'mNomSpeed' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 7) 'poseDispense' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 9) 'poseDispense' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 16) 'poseDispense' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 20) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 23) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 30) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 33) 'pis_grid' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 35) 'pis_grid' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 39) 'pis_grid' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 45) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 47) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 54) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 58) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 66) 'poseAssembly' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 70) 'poseAssemMatrix' : invalid name
+[12/17/23 19:50:56]: (File scan_piston.pgx-line 74) 'poseAssemMatrix' : invalid name
+[12/17/23 19:50:59]: COM-PC: destroy session 127.0.0.1 on port 61197 id=#59682408
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 2) 'slow' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 3) 'mNomSpeed' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 7) 'poseDispense' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 9) 'poseDispense' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 16) 'poseDispense' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 20) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 23) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 30) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 33) 'pis_grid' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 35) 'pis_grid' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 39) 'pis_grid' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 45) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 47) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 54) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 58) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 66) 'poseAssembly' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 70) 'poseAssemMatrix' : invalid name
+[12/17/23 19:51:01]: (File scan_piston.pgx-line 74) 'poseAssemMatrix' : invalid name
+[12/17/23 19:53:50]: COM-PC: create session 127.0.0.1 on port 61277 id=#59680432
+[12/17/23 19:53:54]: Settling arm power...
+[12/17/23 19:53:55]: Arm power settled.
+[12/17/23 19:53:55]: Unknown event:motion generator activated
+[12/17/23 19:54:08]: Abebe_TX60 application started
+[12/17/23 19:54:08]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[12/17/23 19:54:46]: MCP communication disconnected
+[12/17/23 19:54:46]: Arm power shutdown: working mode change.
+[12/17/23 19:54:46]: Arm power shutdown...
+[12/17/23 19:54:46]: Unknown event:motion generator desactivated
